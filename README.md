@@ -68,38 +68,6 @@ Students can ask about **39 topics** spanning admissions, scholarships, hostel l
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Welcome Screen — Initial State
-![UniAssist AI Welcome Screen](ss1_welcome.png)
-> Dark-themed chat UI with sidebar topic chips, FAQ quick-access grid, and live analytics panel on the right.
-
----
-
-### 🎓 Admission Query — Knowledge Base Match in Action
-![Admission Process Response](ss2_admission.png)
-> User asks *"How can I get admission?"* — the bot returns a structured 6-step admission guide with the matched pattern and 100% similarity score shown in the analytics panel.
-
----
-
-### 🏆 Scholarship Information Response
-![Scholarship Query Response](ss3_scholarship.png)
-> Detailed merit-based and need-based scholarship breakdown returned instantly from the local JSON knowledge base — zero API calls.
-
----
-
-### 🏢 Hostel Fees & Facilities
-![Hostel Information Response](ss4_hostel.png)
-> Complete hostel details including room types, per-semester fees, and amenities — with intent history log updating in real time.
-
----
-
-### 💰 Fee Structure Response
-![Fee Structure Response](ss5_fees.png)
-> Full semester-wise fee breakdown for all programs with payment options — analytics panel shows session stats accumulating across the conversation.
-
----
-
 ## 🗂️ Architecture
 
 ```
