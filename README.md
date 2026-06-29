@@ -258,19 +258,13 @@ Contributions are welcome! To add more intents or improve the matching engine:
 
 ---
 
-## 👨‍💻 Developer
+## 👨‍💻 Developer By Muhammad Umair
 
-**Built during internship at Superior University, Lahore**
+**Built during internship at Innoviast Software House, Lahore**
 
 - 🌐 University: [Superior University](https://www.superior.edu.pk)
 - 📧 Admissions: admissions@superior.edu.pk
-- 📞 Contact: +92-42-111-738-738
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
+- 📞 Contact: +923040414415
 
 ---
 
