@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UniAssist AI - Student Helpdesk Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+</head>
+<body>
+  <div class="splash-screen" id="splashScreen">
+    <div class="splash-card">
+      <div class="splash-title">Loading UniAssist AI...</div>
+      <div class="splash-subtitle">Initializing Knowledge Base...</div>
+      <div class="splash-progress">
+        <span class="progress-dot"></span>
+        <span class="progress-dot"></span>
+        <span class="progress-dot"></span>
+      </div>
+      <div class="splash-status" id="splashStatus">Loading Student Helpdesk...</div>
+    </div>
+  </div>
+
+  <div class="app-shell hidden" id="appShell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">UA</div>
+        <div>
+          <div class="brand-title">UniAssist AI</div>
+          <div class="brand-subtitle">Student Helpdesk Assistant</div>
+        </div>
+      </div>
+
+      <div class="sidebar-button" id="newChatBtn">New Chat</div>
+      <div class="sidebar-panel">
+        <div class="panel-title">Conversation History</div>
+        <div class="history-list" id="historyList"></div>
+      </div>
+
+      <div class="sidebar-panel">
+        <div class="panel-title">Suggested Topics</div>
+        <div class="topic-grid" id="topicGrid"></div>
+      </div>
+
+      <div class="sidebar-panel">
+        <div class="panel-title">Quick Actions</div>
+        <button class="secondary-btn" id="faqToggleBtn">Toggle FAQs</button>
+        <button class="secondary-btn" id="clearHistoryBtn">Clear History</button>
+        <button class="secondary-btn" id="toggleThemeBtn">Toggle Theme</button>
+      </div>
+
+      <div class="sidebar-panel sidebar-footer">
+        <div class="panel-title">About Chatbot</div>
+        <p>UniAssist AI is a local student helpdesk assistant built for colleges with fast query matching, analytics, and offline-first architecture.</p>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <section class="chat-header">
+        <div>
+          <h1>UniAssist AI</h1>
+          <p>Student Helpdesk Assistant</p>
+        </div>
+        <div class="status-chip">
+          <span class="status-dot online"></span>
+          Online
+        </div>
+      </section>
+
+      <section class="info-bar">
+        <div class="info-pill">Knowledge Base Loaded</div>
+        <div class="info-pill" id="sessionStatus">Welcome to UniAssist AI</div>
+      </section>
+
+      <section class="faq-section" id="faqSection">
+        <div class="faq-title">Frequently Asked Questions</div>
+        <div class="faq-grid" id="faqGrid"></div>
+      </section>
+
+      <section class="chat-panel" id="chatPanel"></section>
+
+      <section class="response-summary" id="responseSummary"></section>
+
+      <section class="input-area">
+        <input id="userInput" type="text" placeholder="Ask about admissions, fees, library, scholarships and more..." autocomplete="off" />
+        <button id="sendBtn">Send</button>
+        <div class="export-actions">
+          <button class="tertiary-btn" id="exportTxtBtn">Export TXT</button>
+          <button class="tertiary-btn" id="exportPdfBtn">Export PDF</button>
+        </div>
+      </section>
+
+      <section class="session-stats" id="sessionStats">
+        <div><strong>Questions Asked:</strong> <span id="statQuestions">0</span></div>
+        <div><strong>Answers Returned:</strong> <span id="statAnswers">0</span></div>
+        <div><strong>Successful Matches:</strong> <span id="statSuccess">0</span></div>
+        <div><strong>Fallback Responses:</strong> <span id="statFallback">0</span></div>
+        <div><strong>Session Duration:</strong> <span id="statDuration">0s</span></div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="app-footer">
+    <span>Developed by Muhammad Umair</span>
+    <span>AI Chatbot Developer Intern</span>
+    <span>Innoviast Software House</span>
+    <span>Version 1.0</span>
+  </footer>
+
+  <div class="admin-panel hidden" id="adminPanel">
+    <div class="admin-card">
+      <div class="admin-header">
+        <div>
+          <h2>Analytics Dashboard</h2>
+          <p>Local admin insights from the current browser session.</p>
+        </div>
+        <button class="secondary-btn" id="closeAdminBtn">Close</button>
+      </div>
+      <div class="admin-grid">
+        <div class="admin-stat">
+          <label>Total Questions Asked</label>
+          <div id="adminTotalQuestions">0</div>
+        </div>
+        <div class="admin-stat">
+          <label>Most Asked Topic</label>
+          <div id="adminTopTopic">None</div>
+        </div>
+        <div class="admin-stat">
+          <label>Least Asked Topic</label>
+          <div id="adminLeastTopic">None</div>
+        </div>
+        <div class="admin-stat">
+          <label>Average Match Score</label>
+          <div id="adminAverageScore">0%</div>
+        </div>
+        <div class="admin-stat">
+          <label>Fallback Count</label>
+          <div id="adminFallbackCount">0</div>
+        </div>
+      </div>
+
+      <div class="chart-row">
+        <div class="chart-card">
+          <h3>Categories</h3>
+          <canvas id="categoryPie" width="260" height="260"></canvas>
+        </div>
+        <div class="chart-card">
+          <h3>Daily Usage</h3>
+          <canvas id="dailyGraph" width="520" height="260"></canvas>
+        </div>
+      </div>
+      <button class="primary-btn" id="resetAnalyticsBtn">Reset Analytics</button>
+    </div>
+  </div>
+
+  <script type="module" src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

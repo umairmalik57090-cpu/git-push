@@ -1,0 +1,693 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hey",
+        "Greetings",
+        "How are you?",
+        "What's up",
+        "Is anyone there?",
+        "Start conversation",
+        "Begin chat",
+        "Hiya",
+        "Howdy",
+        "Hi there"
+      ],
+      "responses": [
+        "Welcome to UniAssist AI - Your Superior University Assistant! 👋 I'm here to help you with admissions, academics, campus life, and more. What can I assist you with today?",
+        "Hello! I'm UniAssist AI, your dedicated assistant for all things Superior University. Whether you're a prospective student, current student, or have general queries - I'm here to help!",
+        "Greetings! Welcome to Superior University's AI Assistant. I'm UniAssist AI, and I can help with admissions, campus information, student services, and much more. How can I help you?",
+        "Hi there! 👋 I'm UniAssist AI. Ask me anything about Superior University - from admissions and academics to student life and campus facilities!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "Take care",
+        "Farewell",
+        "I'm leaving",
+        "See you soon",
+        "Bye bye",
+        "Catch you",
+        "Until next time",
+        "Thanks and bye",
+        "Gtg"
+      ],
+      "responses": [
+        "Thank you for using UniAssist AI! 👋 Feel free to reach out anytime you have questions about Superior University. Best of luck with your academic journey!",
+        "Goodbye! It was great assisting you. Don't hesitate to return if you need more information about Superior University. Have an amazing day!",
+        "Bye! Thank you for chatting with UniAssist AI. Remember, we're always here to help your university experience smooth and successful. All the best! 🌟",
+        "Take care! Hope I could help. Come back anytime for more information about Superior University. Keep shining! 💫"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "What are you called?",
+        "Your name?",
+        "Introduce yourself",
+        "Who is this?",
+        "What should I call you?",
+        "What am I talking to?"
+      ],
+      "responses": [
+        "I'm UniAssist AI - your intelligent assistant for Superior University! I'm here 24/7 to answer all your academic, admission, and campus-related questions.",
+        "My name is UniAssist AI! I'm an advanced chatbot specifically designed to help students and visitors navigate Superior University efficiently and effectively.",
+        "I'm UniAssist AI, the official student assistant for Superior University. Think of me as your personal guide through all things related to our university!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "How do I apply?",
+        "What is the admission process?",
+        "How can I get admission?",
+        "How to get admitted?",
+        "Admission requirements?",
+        "Application process",
+        "How to register?",
+        "Admission step by step",
+        "How to become a student?",
+        "Apply for admission",
+        "What are eligibility criteria?"
+      ],
+      "responses": [
+        "Superior University's admission process is straightforward and merit-based:\n\n1️⃣ Online Application: Visit www.superior.edu.pk/admission and fill the form\n2️⃣ Entry Test: Appear for our entrance exam (GAT/NTS or university test)\n3️⃣ Merit List: Check your status on the online portal\n4️⃣ Document Verification: Visit campus with original documents\n5️⃣ Final Registration: Complete enrollment and fee payment\n6️⃣ Welcome to Superior! Begin your academic journey\n\nFor detailed guidance, contact admissions@superior.edu.pk",
+        "Great question! Here's how to join Superior University:\n\n📋 Requirements:\n• FSc/A-Levels or equivalent qualification\n• Strong academic record\n• Valid CNIC/Passport\n• Entry test qualifications\n\n🔄 Process:\n• Online application form submission\n• Written entrance examination\n• Merit-based selection\n• Document submission\n• Final registration\n\nVisit our admission portal or call +92-42-111-738-738 for help!",
+        "Admission at Superior University is competitive yet transparent:\n\n✅ Step 1: Create account and apply online\n✅ Step 2: Pay non-refundable application fee\n✅ Step 3: Appear for written test at designated center\n✅ Step 4: Merit list declaration (2-3 weeks after test)\n✅ Step 5: Document verification at campus\n✅ Step 6: Course selection and registration\n✅ Step 7: Semester begins!\n\nEligibility: 12 years of education minimum, any board"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "admission_eligibility",
+      "patterns": [
+        "Am I eligible for admission?",
+        "What are eligibility requirements?",
+        "Can I apply?",
+        "Do I qualify?",
+        "Eligibility criteria",
+        "Minimum qualifications needed"
+      ],
+      "responses": [
+        "You're eligible for Superior University if you meet these criteria:\n\n📚 Academic Requirements:\n• Minimum 12 years of education (FSc/O+A Levels)\n• Minimum 50% marks in previous qualification\n• Pakistani national (International students welcome with special admission)\n\n📝 Entry Requirements:\n• Valid CNIC or Passport\n• Recent medical checkup (for hostel)\n• No criminal record\n• Minimum age: 17 years\n\nSpecific programs may have additional requirements. Check www.superior.edu.pk/programs",
+        "To be eligible for admission at Superior University:\n\n✅ Educational Qualification: FSc/Diploma/A-Levels or equivalent\n✅ Aggregate Score: Minimum 50% in your last qualification\n✅ Entry Test: Must appear and attempt the university test\n✅ Age: Minimum 16-17 years at time of admission\n✅ Documents: Valid ID and academic certificates\n✅ Character: Clear conduct and no serious disciplinary issues\n\nWant to check eligibility for a specific program? Ask me about it!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "college_contact",
+      "patterns": [
+        "How can I contact the college?",
+        "How do I contact the university?",
+        "College contact information?",
+        "College phone number?",
+        "What is the college contact number?",
+        "How can I reach the college?"
+      ],
+      "responses": [
+        "You can contact Superior University at +92-42-111-738-738, email admissions@superior.edu.pk, or visit the help desk in Building A. For department-specific questions, use the university website contact page.",
+        "For college enquiries, call +92-42-111-738-738 or email info@superior.edu.pk. The admissions and student support offices are available Monday through Friday for help with programs, fees, and campus services.",
+        "Use the main university contact number +92-42-111-738-738 and ask for the admissions or student support office. You can also write to info@superior.edu.pk for quick assistance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "courses_information",
+      "patterns": [
+        "What courses are available?",
+        "What courses are offered?",
+        "Which programs does the college offer?",
+        "List of courses offered",
+        "What programs can I study?",
+        "Courses offered in the university"
+      ],
+      "responses": [
+        "Superior University offers programs across engineering, IT, business, and sciences. Available courses include Computer Science, Information Technology, Software Engineering, Electrical Engineering, Mechanical Engineering, Civil Engineering, Chemical Engineering, Business Administration, and Applied Sciences.",
+        "The university offers a wide range of undergraduate programs including Computer Science, IT, Software Engineering, Electrical Engineering, Mechanical Engineering, Civil Engineering, Chemical Engineering, Business Administration, and Science majors.",
+        "Our programs cover IT and computing, engineering fields, business and management, and sciences. Popular courses include CS, IT, Software Eng, Electrical Eng, Mechanical Eng, Civil Eng, Chemical Eng, Business Administration, and more."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "scholarship_detailed",
+      "patterns": [
+        "Tell me about scholarships",
+        "Scholarship opportunities?",
+        "How to get scholarship?",
+        "How do I apply for scholarships?",
+        "How can I apply for scholarships?",
+        "Merit scholarship?",
+        "Need-based financial aid?",
+        "Scholarship eligibility?",
+        "Full scholarship available?",
+        "Partial scholarship?",
+        "Scholarship application"
+      ],
+      "responses": [
+        "Superior University offers diverse scholarship opportunities:\n\n🏆 MERIT-BASED SCHOLARSHIPS:\n• Full Tuition Waiver: Top 5% achievers (100% fee covered)\n• 75% Scholarship: Next 10% performers\n• 50% Scholarship: Merit cutoff achievers\n• Departmental Scholarships: Based on test performance\n\n💰 NEED-BASED FINANCIAL AID:\n• Family income-based assistance (up to 50% coverage)\n• Emergency financial aid for hardship cases\n• Part-time job opportunities on campus\n\n🎓 SPECIAL SCHOLARSHIPS:\n• Women empowerment scholarships\n• Minority scholarships\n• Sports talent scholarships\n• Research scholarships (for advanced students)\n\n📋 Application: Apply during admission process or contact: scholarship@superior.edu.pk",
+        "Superior University has a comprehensive scholarship program:\n\n🥇 RANKING-BASED AWARDS:\n• Top 10% of applicants: 50-100% tuition waiver\n• Aggregate scorers 75-79%: 25% fee discount\n• Outstanding test performers: Department-specific grants\n\n👥 CATEGORY-WISE SUPPORT:\n• First-generation college students: 30% waiver\n• Female students in STEM: 20% waiver\n• Students from low-income backgrounds: Need-based aid\n\n⚽ TALENT SCHOLARSHIPS:\n• Sports excellence: Up to 60% coverage\n• Arts and cultural talents: Up to 40% coverage\n\nTo apply: Fill scholarship form in the admission portal before final registration!",
+        "Scholarship Information at Superior University:\n\n💎 CATEGORIES & AMOUNTS:\n1. Academic Excellence: 25-100% of tuition\n2. Partial Scholarships: 25-50% coverage\n3. Hostel Scholarships: Full/partial hostel fee waiver\n4. Performance-Based: Renewable annually\n5. One-time Grants: For emergency situations\n\n🔍 Eligibility Criteria:\n• Current students with CGPA 3.0+ (renewal)\n• Fresh applicants in top merit tiers\n• Demonstrated financial need\n• Active participation in university activities\n\n⏰ Important Dates:\n• Application deadline: 30 days after admission\n• Results: Announced before semester starts\n• Renewal: Every semester based on performance\n\nFor queries: Call +92-42-111-738-738 ext. 4500"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hostel_information",
+      "patterns": [
+        "Tell me about hostel",
+        "Hostel facilities?",
+        "Hostel accommodation",
+        "Boys/Girls hostel?",
+        "Hostel fees and charges?",
+        "What are the hostel fees?",
+        "Distance from campus?",
+        "Hostel amenities?",
+        "Can I stay in hostel?",
+        "Hostel rules and regulations"
+      ],
+      "responses": [
+        "Superior University Hostel Information:\n\n🏢 ACCOMMODATION DETAILS:\n• Separate Boys and Girls Hostels\n• 800+ total capacity (400 each)\n• Located adjacent to main campus (5-min walk)\n• Modern architecture with security features\n\n🛏️ ROOM TYPES & FEES:\n• Single AC Room: Rs. 25,000/semester\n• Shared AC Room (2-person): Rs. 15,000/semester\n• Non-AC Room (2-person): Rs. 10,000/semester\n• Triple Sharing: Rs. 8,000/semester\n\n✨ AMENITIES PROVIDED:\n✅ 24/7 High-speed WiFi\n✅ Daily meal plan (breakfast, lunch, dinner)\n✅ Laundry and housekeeping\n✅ 24/7 Security with CCTV\n✅ Study areas and common rooms\n✅ Sports facilities\n✅ Medical clinic on premises\n\n📋 APPLICATION: Apply during admission process or contact hostel@superior.edu.pk",
+        "Hostel Facilities at Superior University:\n\n🏠 ROOM CONFIGURATIONS:\nType A (AC Single): Perfect privacy, attached washroom, study desk\nType B (AC Double): Spacious, shared washroom, individual lockers\nType C (Non-AC): Budget-friendly, basic furniture, safe accommodation\n\n🍽️ DINING & NUTRITION:\n• 3 meals daily (breakfast 7-8 AM, lunch 12-1 PM, dinner 6-7 PM)\n• Vegetarian and non-vegetarian options\n• Special dietary accommodations available\n• Cafeteria for snacks and beverages\n\n📱 TECH & CONNECTIVITY:\n• 100 Mbps WiFi throughout hostel\n• Charging stations in rooms\n• IT support for technical issues\n\n🛡️ SAFETY FEATURES:\n• CCTV surveillance in common areas\n• Trained security personnel 24/7\n• Emergency response team\n• First-aid facility\n• Fire safety systems\n\n📞 Hostel Office: +92-42-111-738-738 ext. 4600",
+        "Complete Hostel Guide for Superior University:\n\n🎯 ELIGIBILITY & ALLOCATION:\n• Priority: Out-of-station students\n• Merit: Based on entrance test score\n• First-come basis after merit\n• International students: Guaranteed accommodation\n\n💳 FEE STRUCTURE:\nSemester 1: Registration (One-time): Rs. 3,000\nMonthly Fees:\n• AC with attached bath: Rs. 6,500/month\n• AC sharing: Rs. 4,500/month\n• Non-AC sharing: Rs. 2,500/month\n\nUtilities: Included (electricity, water, WiFi)\nMeal Plan: Rs. 8,000/month (optional)\n\n📋 APPLICATION PROCESS:\n1. Fill hostel form after admission\n2. Submit proof of residency (if needed)\n3. Medical checkup (mandatory)\n4. Interview (optional)\n5. Allocation within 2 weeks\n\n⚠️ HOSTEL RULES:\n✓ No outside guests after 8 PM\n✓ Quiet hours: 10 PM - 8 AM\n✓ Zero tolerance for misconduct\n✓ Regular room inspection\n✓ Proper dress code in common areas\n\nFor hostel queries: hostel@superior.edu.pk"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "library_information",
+      "patterns": [
+        "Tell me about library",
+        "Library facilities?",
+        "How to access library?",
+        "Library timings?",
+        "Digital library?",
+        "Library books and resources?",
+        "E-journals and databases?",
+        "Library membership",
+        "Where is the library?",
+        "Can I borrow books?"
+      ],
+      "responses": [
+        "Superior University Digital Library:\n\n📚 LIBRARY OVERVIEW:\n• 5-story state-of-the-art building\n• 100,000+ books and resources\n• 24/7 access for registered students\n• Climate-controlled environment\n• Advanced book management system\n\n💻 DIGITAL RESOURCES:\n✅ 500+ E-Journals (IEEE, ACM, Science Direct)\n✅ 100+ E-Books databases\n✅ Online thesis repository\n✅ Video tutorials and lecture recordings\n✅ Research databases (JSTOR, ProQuest)\n✅ Full-text article search engine\n\n📖 PHYSICAL COLLECTION:\n• Engineering: 25,000 books\n• Computer Science: 18,000 books\n• General subjects: 57,000 books\n\n⏰ TIMINGS:\n• Weekdays: 8 AM - 10 PM\n• Weekends: 10 AM - 6 PM\n• Special late-night access during exams (24/7)\n\n📋 BORROWING POLICY:\n• Faculty: 50 books, 6-month loan period\n• Students: 5 books, 14-day loan period\n• Fine for late return: Rs. 10/day\n\n📞 Library Contact: library@superior.edu.pk | +92-42-111-738-738 ext. 4200",
+        "Superior University Library Information:\n\n🏛️ FACILITIES:\n✨ Reading Halls (capacity: 500+ students)\n✨ Computer Labs with 50+ workstations\n✨ Quiet study zones\n✨ Group discussion areas\n✨ Thesis preparation rooms\n✨ Seminar halls\n✨ Printing and photocopy services\n\n🔍 DATABASE ACCESS:\n1. IEEE Xplore (technical papers)\n2. ACM Digital Library (computer science)\n3. Science Direct (multidisciplinary)\n4. JSTOR (humanities and sciences)\n5. ProQuest Dissertations\n6. Scopus (citation tracking)\n7. Web of Science (research analytics)\n\n📱 DIGITAL LIBRARY PLATFORM:\n• Username: Your student ID\n• Password: Set during orientation\n• Access: www.library.superior.edu.pk\n• Mobile App: Available on iOS & Android\n• Offline access: Download articles for offline use\n\n👥 LIBRARIAN ASSISTANCE:\n• Reference librarians available 8 AM - 8 PM\n• Research consultation by appointment\n• Citation style guidance (APA, MLA, Harvard, Chicago)\n• Literature review support\n\n⚙️ LIBRARY SERVICES:\n✓ Book reservation system\n✓ Inter-library loan service\n✓ Document delivery service\n✓ Binding and lamination\n✓ Scanning services"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fees_detailed",
+      "patterns": [
+        "What is the fee structure?",
+        "What is the college fee?",
+        "How much is tuition?",
+        "Fee per semester?",
+        "Breakdown of all fees?",
+        "Additional charges?",
+        "Payment methods?",
+        "Fee installments?",
+        "Refund policy?",
+        "Late fee charges?"
+      ],
+      "responses": [
+        "Superior University Fee Structure (2024-2025):\n\n💰 TUITION FEES (Per Semester):\n• Engineering Programs: Rs. 120,000\n• Computer Science: Rs. 135,000\n• Business Administration: Rs. 100,000\n• Arts & Sciences: Rs. 85,000\n\n📋 ADDITIONAL MANDATORY FEES:\nLab Fee: Rs. 15,000 (Engineering/CS only)\nLibrary & IT Fee: Rs. 8,000\nActivity Fee: Rs. 5,000\nRegistration: Rs. 5,000 (1st semester only)\nSports Fee: Rs. 3,000\n\nTotal (Engineering): ~Rs. 156,000/semester\n\n💳 PAYMENT OPTIONS:\n✅ Bank Transfer (mention Roll No in reference)\n✅ Credit/Debit Card (1% convenience charge)\n✅ Challan at allied banks\n✅ Mobile wallet (JazzCash, Easypaisa)\n✅ Post-dated cheques (up to 2 cheques)\n\n📅 PAYMENT SCHEDULE:\n• Due Date: 10 days before semester starts\n• Late Payment: 5% fine after due date\n• Cancellation: Refund only before semester starts\n\n🤝 SCHOLARSHIP DEDUCTION:\nFees shown above are before scholarship deduction\nScholarship amount deducted before final bill\n\n📞 Finance Office: finance@superior.edu.pk | +92-42-111-738-738 ext. 4100",
+        "Complete Fee Information:\n\n🎓 PROGRAM-WISE FEES (Per Semester):\n\nENGINEERING PROGRAMS:\n├─ Computer Engineering: Rs. 135,000\n├─ Software Engineering: Rs. 140,000\n├─ Electrical Engineering: Rs. 130,000\n├─ Mechanical Engineering: Rs. 125,000\n├─ Civil Engineering: Rs. 120,000\n└─ Chemical Engineering: Rs. 122,000\n\nNON-ENGINEERING:\n├─ BS Computer Science: Rs. 135,000\n├─ BS Information Technology: Rs. 128,000\n├─ Business Administration: Rs. 105,000\n└─ General Sciences: Rs. 90,000\n\n📌 ADDITIONAL CHARGES:\n• Hostel (if applicable): Rs. 10,000-25,000/semester\n• Transport (if using university bus): Rs. 8,000/semester\n• Meal Plan: Rs. 32,000/semester\n• Health Insurance: Rs. 5,000/semester\n• Student Card: Rs. 500 (one-time)\n\n🎟️ SPECIAL DISCOUNTS:\n• Sibling Discount: 10% for 2nd sibling\n• Alumni Children: 15% discount\n• Referral Bonus: Rs. 5,000 for successful referral\n\n⚙️ INSTALLMENT SCHEME:\n✅ 50-50 split (two equal payments per semester)\n✅ Post-dated cheques accepted\n✅ No hidden charges or interest\n✅ Flexible payment dates (within semester)\n\n❓ FEE WAIVER CRITERIA:\n• Outstanding academic performance (80%+ average)\n• Complete scholarship holders (no fee)\n• Emergency hardship cases (contact Dean)\n\n📞 For fee queries: accounts@superior.edu.pk"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "placement_detailed",
+      "patterns": [
+        "Tell me about placement",
+        "Placement statistics?",
+        "Which companies recruit?",
+        "Average salary?",
+        "Placement rate?",
+        "Internship opportunities?",
+        "How to prepare for placement?",
+        "Career support?"
+      ],
+      "responses": [
+        "Superior University Placement Information:\n\n📊 PLACEMENT STATISTICS (2023-24):\n• Overall Placement Rate: 92%\n• Average Salary Package: Rs. 600,000/annum\n• Highest Package: Rs. 2.4 Million\n• Average Internship Stipend: Rs. 50,000/month\n• Companies Recruiting: 150+\n\n🏢 TOP RECRUITING COMPANIES:\nTier 1: Google, Microsoft, Amazon, Facebook, Apple\nTier 2: TCS, Accenture, Cognizant, IBM, Deloitte\nLocal: PTCL, Zong, Ufone, Warid, FastTech\nStartups: 50+ AI/Tech startups (incubated locally)\n\n💼 INDUSTRY SECTORS:\n• Software Development: 45%\n• Data Science: 25%\n• IT Consulting: 15%\n• Hardware/Embedded: 10%\n• Startup Founders: 5%\n\n🤝 PLACEMENT SUPPORT:\n✅ Resume building workshops\n✅ Mock interviews (monthly)\n✅ Company recruitment drives\n✅ Networking events with industry leaders\n✅ LinkedIn profile optimization\n✅ Technical interview preparation\n\n📞 Career Development Office: careers@superior.edu.pk\n📍 Office Location: Building A, Ground Floor",
+        "Placement & Career Services at Superior University:\n\n🎯 CAREER DEVELOPMENT PROGRAM:\n• 4-Year Career Path Planning\n• Skill Development Workshops (Communication, Technical)\n• Industry Mentorship Program\n• Entrepreneurship Support\n• Research Opportunities\n\n📈 INTERNSHIP ECOSYSTEM:\n• 200+ internship partnerships\n• Summer internships (May-July)\n• Winter internships (Dec-Jan)\n• Final-year project internships\n• Average monthly stipend: Rs. 50,000\n• Conversion to full-time: 60%\n\n🏆 COMPANY VISITS & RECRUITMENT:\n• 30-40 recruitment drives per year\n• On-campus interviews\n• Group discussions and technical rounds\n• HR round with company representatives\n• Average 5-6 offers per student\n\n💡 SKILL DEVELOPMENT:\n• Coding bootcamps\n• Data Science masterclasses\n• Cloud computing certifications\n• AI/ML specialization tracks\n• Soft skills training\n• TOEFL/IELTS preparation\n\n🌍 INTERNATIONAL OPPORTUNITIES:\n• Exchange programs with 30+ international universities\n• Work visa sponsorship\n• International internships in USA, Canada, UK\n• Global startup connections\n\n📱 CAREER PORTAL:\n• URL: www.superior.edu.pk/careers\n• Job postings: Updated daily\n• Internship listings: 500+ active postings\n• Salary insights: By company and role\n• Alumni success stories\n\n📞 Contact: +92-42-111-738-738 ext. 4300"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "transport_information",
+      "patterns": [
+        "Is there university transport?",
+        "Transport facilities?",
+        "Bus service?",
+        "Transport fee?",
+        "Bus routes?",
+        "Parking facilities?",
+        "How to use transport?",
+        "Transport timings?"
+      ],
+      "responses": [
+        "Superior University Transport System:\n\n🚌 BUS FLEET:\n• 25 modern AC buses\n• Capacity: 40-50 per bus\n• Routes: Cover entire Lahore (North, South, East, West)\n• Drivers: Professional, trained, background-checked\n\n🗺️ MAJOR ROUTES:\n✅ Route 1: Defence → DHA → Campus\n✅ Route 2: Allama Iqbal Town → Race Course → Campus\n✅ Route 3: Model Town → Gulberg → Campus\n✅ Route 4: Johar Town → Thokar Niaz Baig → Campus\n✅ Route 5: Bahria → Sadar → Campus\n✅ 5+ more routes covering entire city\n\n💳 TRANSPORT FEE:\n• Per Semester: Rs. 8,000\n• Monthly: Rs. 2,000\n• Daily Pass: Rs. 80 per day\n• One-way trip: Rs. 40\n\n⏰ TIMINGS:\n• First bus from city: 7:00 AM\n• Last bus to city: 6:00 PM\n• Morning peak (7-8:30 AM): Every 10 minutes\n• Evening peak (4-6 PM): Every 15 minutes\n\n🛡️ SAFETY FEATURES:\n✅ GPS tracking in all buses\n✅ First-aid kits\n✅ Emergency alarm buttons\n✅ CCTV in all vehicles\n✅ Female-only seating area\n✅ Trained staff on board\n\n📱 BOOKING & INFO:\n• Mobile App: SuperiorTransit (iOS & Android)\n• Website: www.superior.edu.pk/transport\n• Call: +92-42-111-738-738 ext. 4700\n\n🅿️ PARKING:\n• Free parking for students on campus\n• Designated motorcycle parking\n• Car parking area (500+ capacity)\n• Security personnel 24/7"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "examination_detailed",
+      "patterns": [
+        "When are exams?",
+        "When are the semester exams?",
+        "Exam schedule and dates?",
+        "How are exams conducted?",
+        "Final exam information?",
+        "Midterm exams?",
+        "Exam rules?",
+        "Exam results?",
+        "Grading system?",
+        "Exam centers?"
+      ],
+      "responses": [
+        "Superior University Examination System:\n\n📅 ACADEMIC CALENDAR:\n• Spring Semester: February - May (4 months)\n• Fall Semester: September - December (4 months)\n• Midterm Exams: Week 8 (30% weightage)\n• Final Exams: 2-week period after semester ends (70% weightage)\n\n📋 EXAM SCHEDULE:\n• Exam timetable: Released 2 weeks before exams\n• Available on: Student Portal, Department Boards, Email\n• Format: Theory + Practical (where applicable)\n• Duration: 2-3 hours per paper\n• Time: Usually 9 AM, 1 PM, 4 PM slots\n\n📍 EXAM CENTERS:\n• Main Campus: A, B, C, D blocks\n• Engineering Building: E, F blocks\n• Additional Centers: Allotted if enrollment exceeds capacity\n• Assignment: Based on roll number\n\n✅ EXAM RULES & REGULATIONS:\n• Arrive 15 minutes early (latecomers denied entry after 15 min)\n• Valid ID card (student card) mandatory\n• No books, notes, calculators (unless specified)\n• Phone: Must be switched off completely\n• Penalty for cheating: Fail + disciplinary action\n• Medical certificate required for makeup exams\n\n📊 GRADING SYSTEM:\nA+ (90-100): 4.0 GPA\nA  (85-89):  3.7 GPA\nA- (80-84):  3.3 GPA\nB+ (75-79):  3.0 GPA\nB  (70-74):  2.7 GPA\nB- (65-69):  2.3 GPA\nC+ (60-64):  2.0 GPA\nC  (55-59):  1.7 GPA\nF  (Below 55): 0.0 GPA\n\n📱 RESULTS PORTAL:\n• Results Posted: Within 2 weeks of exams\n• Access: www.superior.edu.pk/results (Student ID login)\n• Transcript: Available from Dean's office\n• Grievance: Email within 3 days of results\n\n📞 Exam Cell: exams@superior.edu.pk | +92-42-111-738-738 ext. 4400"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "campus_tour",
+      "patterns": [
+        "Tell me about campus",
+        "Campus facilities",
+        "What is on campus?",
+        "Campus tour?",
+        "Buildings and structures?",
+        "Campus layout?",
+        "Where are things located?",
+        "Campus infrastructure?"
+      ],
+      "responses": [
+        "Superior University Campus Overview:\n\n🏛️ MAIN BUILDINGS:\n• Building A: Central Administration, Registrar Office\n• Building B: Engineering Department, Labs\n• Building C: Computer Science Department, IT Labs\n• Building D: Science & General Studies\n• Building E: Business School\n• Building F: Research & Development Center\n\n📚 ACADEMIC FACILITIES:\n✅ 20+ state-of-the-art laboratories\n✅ AI/ML Lab with GPU servers\n✅ Robotics & Embedded Systems Lab\n✅ Network & Cybersecurity Lab\n✅ Digital Library (5 stories, 100,000+ books)\n✅ Auditorium (capacity: 1000)\n✅ 15 smart classrooms with latest tech\n\n🏃 SPORTS & RECREATION:\n✅ Football field (international standards)\n✅ Cricket ground\n✅ Badminton courts (6)\n✅ Basketball court\n✅ Volleyball court\n✅ Gymnasium with modern equipment\n✅ Swimming pool (Olympic size)\n\n🍽️ DINING & ACCOMMODATION:\n✅ Main Cafeteria (capacity: 500)\n✅ Multiple food courts\n✅ Coffee shop\n✅ Boys hostel (400 capacity)\n✅ Girls hostel (400 capacity)\n✅ Staff quarters\n\n💻 TECH INFRASTRUCTURE:\n✅ 100 Mbps WiFi campus-wide\n✅ Computing centers with 200+ workstations\n✅ Video conference rooms\n✅ Seminar halls\n✅ Student lounge with entertainment\n\n🛍️ SUPPORT SERVICES:\n✅ Medical clinic (24/7)\n✅ ATM booths (3 locations)\n✅ Bookstore\n✅ Printing center\n✅ Laundry service\n✅ Post office\n\n🗺️ CAMPUS MAP:\n• Download: www.superior.edu.pk/campus-map\n• QR codes at all major buildings\n• GPS-enabled navigation available\n\n📸 VIRTUAL TOUR:\n• 360° virtual tour: www.superior.edu.pk/virtual-tour\n• YouTube videos: Search 'Superior University Campus'\n• On-ground tour: Arrange through admissions office"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "canteen_information",
+      "patterns": [
+        "Tell me about canteen",
+        "Food facilities?",
+        "Dining options?",
+        "Canteen timings?",
+        "Menu options?",
+        "Food prices?",
+        "Where to eat?",
+        "Cafeteria?"
+      ],
+      "responses": [
+        "Superior University Dining Facilities:\n\n🍽️ MAIN CAFETERIA:\n• Seating Capacity: 500+ students\n• Location: Central campus (Building D)\n• Timings: 7 AM - 9 PM daily\n• Payment: Card/Cash (both accepted)\n\n📋 MEAL OPTIONS:\n\nBREAKFAST (7-10 AM):\n• Paratha with lassi (Rs. 80)\n• Omelette with roti (Rs. 70)\n• Tea & snacks (Rs. 30-50)\n• Fruit salad (Rs. 60)\n\nLUNCH (12-2 PM):\n• Biryani special (Rs. 180)\n• Daal & Rice (Rs. 100)\n• Chicken curry with naan (Rs. 150)\n• Mix vegetable (Rs. 90)\n• Salad bar (Rs. 50)\n\nDINNER (6-8 PM):\n• Tandoori chicken (Rs. 200)\n• Fish tikka (Rs. 180)\n• Vegetarian platters (Rs. 100)\n• Soup & bread (Rs. 70)\n\n🥗 SPECIAL DIETS:\n✅ Vegetarian Menu (extensive options)\n✅ Vegan Options\n✅ Halal Certified\n✅ Allergen-Free Preparations\n✅ Nutritionist on-staff\n\n☕ QUICK FOOD OUTLETS:\n• Pizza & Burger Corner: Rs. 120-200\n• Tea & Coffee Shop: Rs. 40-80\n• Juice Bar: Rs. 50-100\n• Bakery: Rs. 40-150\n• Snack Stall: Rs. 20-60\n\n💳 PAYMENT METHODS:\n✅ Digital Card (loaded with semester fees)\n✅ Cash (small denomination preferred)\n✅ Mobile payment (JazzCash, Easypaisa)\n\n🏅 FOOD QUALITY:\n✅ Daily menu rotation\n✅ HACCP certified kitchen\n✅ Regular health inspections\n✅ Fresh ingredients sourced daily\n✅ Clean dining environment\n\n📞 Canteen Manager: canteen@superior.edu.pk\n⭐ Student Rating: 4.5/5 stars"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "Tell me about departments",
+        "Department information?",
+        "What departments exist?",
+        "Department contact?",
+        "Which department to join?",
+        "Department facilities?",
+        "Department faculty?",
+        "Department head?"
+      ],
+      "responses": [
+        "Superior University Departments:\n\n🖥️ COMPUTER SCIENCE DEPARTMENT:\n• Head: Dr. Ahmed Hassan (ahmed.hassan@superior.edu.pk)\n• Programs: BS CS, BS IT, MS Computer Science\n• Faculty: 25+ PhDs with industry experience\n• Labs: AI/ML, Cybersecurity, Data Science, Cloud\n• Office: Building C, 2nd Floor\n• Contact: cs@superior.edu.pk | +92-42-111-738-738 ext. 2100\n\n⚙️ ENGINEERING DEPARTMENT:\n• Head: Prof. Muhammad Ali (m.ali@superior.edu.pk)\n• Programs: CE, EE, ME, SE, ChE, Software Eng\n• Faculty: 35+ professors with global experience\n• Facilities: State-of-the-art labs, workshops\n• Office: Building B, Ground Floor\n• Contact: engineering@superior.edu.pk | +92-42-111-738-738 ext. 2200\n\n📊 BUSINESS ADMINISTRATION:\n• Head: Dr. Fatima Khan (f.khan@superior.edu.pk)\n• Programs: BBA, MBA, Executive programs\n• Faculty: 15+ with industry background\n• Focus: Entrepreneurship, Management, Finance\n• Office: Building E, 1st Floor\n• Contact: business@superior.edu.pk | +92-42-111-738-738 ext. 2300\n\n🔬 SCIENCE & LIBERAL ARTS:\n• Head: Dr. Hamid Raza (h.raza@superior.edu.pk)\n• Programs: BS Math, Physics, Chemistry, English, Urdu\n• Faculty: 20+ experienced educators\n• Office: Building D, Ground Floor\n• Contact: science@superior.edu.pk | +92-42-111-738-738 ext. 2400\n\n🔭 RESEARCH & DEVELOPMENT:\n• Head: Prof. Saira Ahmed (s.ahmed@superior.edu.pk)\n• Focus: AI, IoT, Renewable Energy, Biotech\n• Funded Projects: 50+ active research projects\n• Publications: 200+ papers annually\n• Office: Building F, All Floors\n• Contact: research@superior.edu.pk | +92-42-111-738-738 ext. 2500\n\n📞 For department-specific queries, contact the respective department directly or email admissions@superior.edu.pk"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "student_portal",
+      "patterns": [
+        "How to use student portal?",
+        "Student portal login?",
+        "Student account setup?",
+        "Portal features?",
+        "What can I do in portal?",
+        "Access my records?",
+        "View grades?",
+        "Check attendance?"
+      ],
+      "responses": [
+        "Superior University Student Portal Guide:\n\n🔐 LOGIN INFORMATION:\n• URL: portal.superior.edu.pk\n• Username: Your Student ID (Roll No.)\n• Initial Password: CNIC + Date (format: XXXXX1234-YYYY-MM-DD)\n• First Login: You'll be asked to change password\n\n📱 PORTAL FEATURES:\n\n1. ACADEMIC INFORMATION:\n   ✅ Course registration\n   ✅ View grades and transcripts\n   ✅ GPA calculation\n   ✅ Course materials and syllabus\n   ✅ Assignment submissions\n   ✅ Exam schedule\n   ✅ Results\n\n2. ATTENDANCE & PERFORMANCE:\n   ✅ Daily attendance tracking\n   ✅ Class-wise attendance percentage\n   ✅ Performance analytics\n   ✅ Alert for low attendance\n\n3. FINANCE:\n   ✅ Fee status\n   ✅ Payment history\n   ✅ Receipt download\n   ✅ Scholarship status\n\n4. DOCUMENTS:\n   ✅ Download student card (digital)\n   ✅ Certificates and transcripts\n   ✅ Degree verification request\n   ✅ Official letters\n\n5. CAMPUS SERVICES:\n   ✅ Hostel status\n   ✅ Transport requests\n   ✅ Library account\n   ✅ IT services\n\n6. COMMUNICATIONS:\n   ✅ University announcements\n   ✅ Important notices\n   ✅ Email from faculty\n   ✅ Event updates\n\n🆘 FORGOT PASSWORD?\n• Click 'Forgot Password' on login page\n• Verify with Student ID + DOB\n• OTP sent to registered email\n• Set new password\n• Reset link valid for 24 hours\n\n💻 MOBILE ACCESS:\n• App name: SuperiorStudentApp\n• Available on: iOS & Android\n• All features accessible on mobile\n• Push notifications for updates\n\n📞 PORTAL SUPPORT:\n• Email: itsupport@superior.edu.pk\n• Phone: +92-42-111-738-738 ext. 4800\n• Chat: Available on portal website\n• Hours: 8 AM - 5 PM (Weekdays)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "password_reset",
+      "patterns": [
+        "How to reset password?",
+        "Forgot my password",
+        "Change password?",
+        "Password not working?",
+        "Account locked?",
+        "Password requirements?",
+        "How to recover account?"
+      ],
+      "responses": [
+        "Password Reset Instructions:\n\n🔄 RESET VIA PORTAL:\n1. Go to portal.superior.edu.pk\n2. Click \"Forgot Password\" link\n3. Enter Student ID\n4. Enter Date of Birth (YYYY-MM-DD)\n5. Verify email address\n6. Click \"Send OTP\"\n7. Check email (including spam folder)\n8. Enter 6-digit OTP\n9. Create new password\n10. Login with new password\n\n✅ PASSWORD REQUIREMENTS:\n• Minimum 8 characters\n• At least 1 UPPERCASE letter (A-Z)\n• At least 1 lowercase letter (a-z)\n• At least 1 number (0-9)\n• At least 1 special character (!@#$%^&*)\n• Cannot contain Student ID or name\n• Example: Study@Superior2024\n\n⏱️ RESET PROCESS TIME:\n• OTP valid for: 10 minutes\n• Password link valid for: 24 hours\n• New password active: Immediate\n\n❌ ACCOUNT LOCKED?\n• After 5 wrong login attempts, account locks for 30 min\n• Use 'Forgot Password' to unlock\n• Or contact IT support\n\n🆘 STILL NOT WORKING?\n• Email: itsupport@superior.edu.pk\n• Phone: +92-42-111-738-738 ext. 4800\n• Visit: IT Help Desk, Building A, Ground Floor\n• Bring: Student ID and CNIC\n\n💡 SECURITY TIPS:\n✓ Never share password with anyone\n✓ Don't use same password on multiple sites\n✓ Change password every 3 months\n✓ Logout after using shared computer\n✓ Enable two-factor authentication (available in settings)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "How is attendance tracked?",
+        "Check my attendance",
+        "Attendance policy?",
+        "What is attendance requirement?",
+        "How to improve attendance?",
+        "Absent mark procedure?",
+        "Medical leave?",
+        "Attendance deadline?"
+      ],
+      "responses": [
+        "Superior University Attendance Policy:\n\n📋 ATTENDANCE REQUIREMENTS:\n• Minimum Attendance: 75% in each course\n• Below 75%: Fail in that course (automatic)\n• 70-75%: Conditional pass (with dean's approval)\n• Below 70%: NO chance to sit in exam\n\n✅ TRACKING SYSTEM:\n• Digital attendance (RFID card tap at classrooms)\n• Real-time tracking on student portal\n• SMS notification for low attendance\n• Weekly attendance reports to faculty\n• Parent notification if attendance <70%\n\n📱 CHECK YOUR ATTENDANCE:\n1. Login to portal.superior.edu.pk\n2. Click \"Attendance\" section\n3. View course-wise attendance\n4. Download attendance certificate\n5. Get SMS alerts automatically\n\n🏥 MEDICAL/EXCUSED LEAVE:\n• Medical Certificate: Required within 3 days\n• Maximum medical leave per semester: 10 days\n• Emergency leave: Approved case-by-case\n• Maternity leave: Full semester exemption available\n\n🚨 LOW ATTENDANCE ALERT:\n• When attendance <70%: Automatic warning email\n• When attendance <65%: Dean + Parent notification\n• When attendance <60%: Meeting with course instructor\n• Supportive action plan created\n\n📊 ATTENDANCE CALCULATION:\nAttendance % = (Classes Attended / Total Classes) × 100\nExample: 30 classes attended out of 40 = 75% ✅\n\n📝 ABSENCE PROCEDURES:\n1. Inform course instructor immediately\n2. Submit medical certificate (if applicable)\n3. Portal records automatically updated\n4. Appeal within 7 days if there's error\n\n⚠️ CONSEQUENCES:\n• <75%: Course fail\n• Repeated failures: Probation\n• Continued failure: Academic dismissal\n\n📞 ATTENDANCE OFFICE:\n• Email: attendance@superior.edu.pk\n• Phone: +92-42-111-738-738 ext. 4900\n• Office: Building A, 1st Floor\n• Hours: 9 AM - 4 PM (Weekdays)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "id_card",
+      "patterns": [
+        "How to get student ID card?",
+        "ID card services?",
+        "Replacement ID card?",
+        "Digital ID card?",
+        "Lost my ID card?",
+        "ID card validity?",
+        "What is in ID card?"
+      ],
+      "responses": [
+        "Superior University Student ID Card:\n\n🎫 NEW ID CARD ISSUANCE:\n• When: During orientation (1st day)\n• Location: Administration Building, Ground Floor\n• Processing: Same day (in 2-3 hours)\n• Cost: Free for first card\n• Photo: Taken on campus (dress code: formal)\n\n📸 ID CARD CONTENTS:\n✅ Student photo\n✅ Name and Student ID\n✅ CNIC number\n✅ Program and semester\n✅ Blood group\n✅ Emergency contact\n✅ Validity dates\n✅ QR code (for verification)\n\n💳 DIGITAL ID CARD:\n• Available on student portal\n• Download as PDF\n• Valid for all campus facilities\n• Can be shown on phone/tablet\n• No printing required\n• Updated automatically each semester\n\n🔄 REPLACEMENT ID CARD:\n• Reason: Damaged, worn out, name change, photo change\n• Cost: Rs. 500 (replacement fee)\n• Processing time: 5-7 business days\n• Location: Same as new card issuance\n\n❌ LOST ID CARD:\n1. File FIR at police station\n2. Apply for replacement with FIR copy\n3. Pay Rs. 1,000 (loss fee + replacement)\n4. Processing: 7-10 days\n5. New card collected from admin building\n\n⚠️ IMPORTANT:\n• Valid for all 4 years (until graduation)\n• Carry ID to all campus activities\n• Required for exam entry\n• Needed for library access\n• Mandatory for hostel access\n• Entry pass for campus\n\n🎓 AFTER GRADUATION:\n• Alumni card: Issued on request (Rs. 500)\n• Gives lifetime campus access\n• Alumni benefits and discounts\n\n📞 ID CARD OFFICE:\n• Email: idcard@superior.edu.pk\n• Phone: +92-42-111-738-738 ext. 5000\n• Visit: Admin Building, Office 101\n• Hours: 9 AM - 4 PM (Weekdays)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "degree_verification",
+      "patterns": [
+        "How to get degree verification?",
+        "Degree certificate?",
+        "Transcript request?",
+        "Official documents?",
+        "Graduation certificate?",
+        "How to apply for verification?",
+        "Document authenticity?"
+      ],
+      "responses": [
+        "Superior University Degree Verification & Documents:\n\n📜 DEGREE CERTIFICATE:\n• Issued: After final results and clearance\n• Format: Hardcopy (official stamp & seal)\n• Time: 2-3 weeks after convocation\n• Location: Dean's Office\n• Cost: Free (first copy)\n• Duplicate: Rs. 500 per certificate\n\n📋 ACADEMIC TRANSCRIPT:\n• Contains: Semester-wise grades, GPA, CGPA\n• Format: Official sealed document\n• Use: Graduate school, job applications, visa\n• Cost: Rs. 300 per transcript\n• Processing: 3-5 business days\n• Digital: Available instantly on portal\n\n✅ VERIFICATION TYPES:\n\n1. FOR HIGHER STUDIES:\n   • Official transcript with university seal\n   • Character certificate\n   • Fee clearance certificate\n   • Proof of graduation\n   • Processing: 1-2 weeks\n\n2. FOR JOB/VISA:\n   • Attested degree certificate\n   • Official transcript\n   • Experience letter (if applicable)\n   • Processing: 3-5 days\n\n3. FOR RESEARCH/SCHOLARSHIP:\n   • Detailed academic record\n   • Research publications (if any)\n   • Reference letters from faculty\n   • Processing: 1 week\n\n🔐 VERIFICATION PROCESS:\n1. Apply through online portal (student-verify.superior.edu.pk)\n2. Select document type\n3. Pay fee (online or bank challan)\n4. Collect from Dean's Office\n5. Or request postal delivery (+ Rs. 200)\n\n🌍 INTERNATIONAL VERIFICATION:\n• World Education Services (WES): Directly contacted\n• Transcript with security seal\n• Digital transcript available\n• Processing: 2-3 weeks for international dispatch\n\n📊 CGPA & DEGREE CLASSIFICATION:\nFirst Class: 3.5+ CGPA\nSecond Class: 2.5-3.5 CGPA\nThird Class: 2.0-2.5 CGPA\n\n📞 VERIFICATION OFFICE:\n• Email: verification@superior.edu.pk\n• Phone: +92-42-111-738-738 ext. 5100\n• Office: Dean's Office, Building A\n• Hours: 10 AM - 4 PM (Weekdays)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "internship_support",
+      "patterns": [
+        "Internship support?",
+        "How to find internship?",
+        "Internship opportunities?",
+        "Internship stipend?",
+        "Duration of internship?",
+        "Internship evaluation?",
+        "Can I do summer internship?"
+      ],
+      "responses": [
+        "Superior University Internship Support Program:\n\n🎯 INTERNSHIP OPTIONS:\n\n1. SUMMER INTERNSHIP:\n   • Duration: 8-10 weeks (May-July)\n   • Timing: After 2nd semester\n   • Stipend: Rs. 40,000-80,000/month (average)\n   • Companies: 200+ partners\n   • Conversion: 60% get full-time offers\n\n2. FINAL YEAR PROJECT INTERNSHIP:\n   • Duration: 16 weeks (full semester)\n   • Credit: Counts as 6 credit hours\n   • Company: Major tech companies or startups\n   • Stipend: Rs. 50,000-120,000/month\n   • Supervisor: Faculty mentor from university\n\n3. WINTER INTERNSHIP:\n   • Duration: 4-6 weeks (Dec-Jan)\n   • Timing: After odd semesters\n   • Stipend: Rs. 30,000-60,000/month\n   • Flexible: Part-time while studying\n\n4. STARTUP INTERNSHIP:\n   • Duration: Flexible (3-12 months)\n   • Equity: Some startups offer equity\n   • Learning: High-growth environment\n   • Support: Mentorship from faculty\n\n💼 HOW TO FIND INTERNSHIP:\n\n1. Online Portal:\n   • URL: internships.superior.edu.pk\n   • 500+ active listings\n   • Filter by skill, duration, stipend\n   • Apply directly to companies\n\n2. Career Fair:\n   • Held twice yearly (Feb & Oct)\n   • 100+ companies attend\n   • On-campus interviews\n   • Direct offers\n\n3. Faculty Referral:\n   • Department coordinators have contacts\n   • Alumni working in industry\n   • Direct placement assistance\n   • Personalized guidance\n\n4. Startup Incubator:\n   • 50+ incubated startups\n   • Direct placement opportunities\n   • Mentorship included\n   • High learning value\n\n🤝 UNIVERSITY SUPPORT:\n✅ CV & cover letter help\n✅ Interview preparation (mock interviews)\n✅ Internship portal access\n✅ Faculty supervision\n✅ Conflict resolution\n✅ Placement verification\n✅ Internship certificate\n\n📊 EVALUATION:\n• Supervisor evaluation (50%)\n• Final presentation (30%)\n• Report submission (20%)\n• Total: 6 credit hours\n\n📞 INTERNSHIP OFFICE:\n• Email: internship@superior.edu.pk\n• Phone: +92-42-111-738-738 ext. 4300\n• Career Development Office, Building A"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "career_counseling",
+      "patterns": [
+        "Career counseling?",
+        "How to choose career?",
+        "Career guidance?",
+        "Career assessment?",
+        "Where is career office?",
+        "Talk to career counselor?",
+        "Career planning?"
+      ],
+      "responses": [
+        "Superior University Career Counseling Services:\n\n🎯 CAREER COUNSELING PROGRAM:\n• Available to: All students (free service)\n• Duration: 1-hour individual sessions\n• Frequency: Weekly available slots\n• Qualifications: Certified career counselors\n• Approach: One-on-one personalized guidance\n\n📋 SERVICES PROVIDED:\n\n1. CAREER ASSESSMENT:\n   ✅ Skills inventory test\n   ✅ Interest assessment\n   ✅ Personality profiling\n   ✅ Strength identification\n   ✅ Aptitude analysis\n\n2. CAREER EXPLORATION:\n   ✅ Industry trend analysis\n   ✅ Job market research\n   ✅ Career pathway planning\n   ✅ Program selection guidance\n   ✅ MBA/MS planning\n\n3. PROFESSIONAL DEVELOPMENT:\n   ✅ Resume building\n   ✅ Cover letter writing\n   ✅ LinkedIn optimization\n   ✅ Interview skills\n   ✅ Salary negotiation\n\n4. PLANNING & STRATEGY:\n   ✅ 4-year plan development\n   ✅ Skill gap analysis\n   ✅ Internship roadmap\n   ✅ Certification recommendations\n   ✅ Graduate school planning\n\n📅 HOW TO SCHEDULE:\n1. Visit: Career Development Office (Building A)\n2. Or Online: calendly.superior.edu.pk/career\n3. Or Call: +92-42-111-738-738 ext. 4300\n4. Choose preferred time slot\n5. Confirm via email\n\n👥 TEAM:\n• Senior Career Counselor: Dr. Fatima Ali\n• Career Coach (Tech): Mr. Hassan Khan\n• Career Coach (Business): Ms. Zainab Ahmed\n• Internship Coordinator: Mr. Usman Malik\n\n🌟 SPECIALIZED TRACKS:\n• Tech Careers (Software, AI, Data Science)\n• Business Careers (Management, Finance)\n• Entrepreneurship (Startup Founder Path)\n• Research & Academia (PhD, Publications)\n• International Careers (Work Abroad)\n\n📚 WORKSHOPS & EVENTS:\n• Monthly: \"Career Insights\" talks\n• Every semester: \"LinkedIn Mastery\" workshop\n• Quarterly: \"Interview Skills\" intensive\n• Bi-monthly: Industry networking events\n\n💡 RESOURCES:\n• Career Library: 500+ books & guides\n• Online Database: 1000+ job descriptions\n• Video Tutorials: Resume, Interview prep\n• Alumni Mentoring: Connect with successful alumni\n\n📞 CAREER OFFICE:\n• Email: careers@superior.edu.pk\n• Phone: +92-42-111-738-738 ext. 4300\n• Location: Building A, 2nd Floor\n• Hours: 9 AM - 5 PM (Weekdays)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "complaint_cell",
+      "patterns": [
+        "File a complaint?",
+        "How to lodge complaint?",
+        "Complaint procedure?",
+        "Issue with faculty?",
+        "Problem with administration?",
+        "Grievance cell?",
+        "Student complaint?"
+      ],
+      "responses": [
+        "Superior University Student Complaint Cell:\n\n⚠️ WHAT CAN YOU COMPLAIN ABOUT?\n✅ Academic issues (grading, teaching quality)\n✅ Administrative delays\n✅ Harassment or bullying\n✅ Facility issues (hostel, transport, etc.)\n✅ Safety and security concerns\n✅ Discrimination\n✅ Unfair treatment\n✅ Service quality issues\n✅ Fee-related problems\n✅ Any other student concern\n\n📋 HOW TO FILE COMPLAINT:\n\nMETHOD 1: ONLINE PORTAL\n• URL: complaints.superior.edu.pk\n• Login: Student ID & Password\n• Steps:\n  1. Click \"New Complaint\"\n  2. Select category\n  3. Describe issue (detailed, with dates)\n  4. Attach evidence (if applicable)\n  5. Submit\n• Tracking: Real-time status updates\n• Receipt: Confirmation email with reference number\n\nMETHOD 2: IN-PERSON\n• Location: Student Affairs Office (Building A, 1st Floor)\n• Hours: 9 AM - 4 PM (Weekdays)\n• Documents needed: Student ID, proof of issue\n• Form: Physical complaint form available\n• Processing: Same day registration\n\nMETHOD 3: EMAIL\n• Email: complaints@superior.edu.pk\n• Subject: [COMPLAINT] - Brief Description\n• Include: Student ID, Contact, Full details\n• Response time: Within 48 hours\n\nMETHOD 4: PHONE\n• Hotline: +92-42-111-738-738 ext. 5200\n• Hours: 9 AM - 5 PM (Weekdays)\n• Reference: Will be provided\n\n⏱️ PROCESS TIMELINE:\n• Registration: Immediate\n• Initial review: 3-5 days\n• Investigation: 1-2 weeks\n• Resolution: 2-4 weeks (average)\n• Follow-up: Automatic if not resolved\n\n🔐 CONFIDENTIALITY:\n✓ All complaints confidential\n✓ No retaliation policy\n✓ Anonymous option available\n✓ Privacy protected throughout\n\n📊 COMPLAINT CATEGORIES:\n1. Academic (25%) - Grading disputes, course issues\n2. Administrative (20%) - Delays, document issues\n3. Behavioral (15%) - Harassment, bullying\n4. Facility (20%) - Hostel, canteen, transport\n5. Financial (15%) - Fee disputes, scholarships\n6. Other (5%) - Miscellaneous issues\n\n✅ RESOLUTION PROCESS:\n1. Acknowledge receipt (24 hrs)\n2. Assign case officer (48 hrs)\n3. Investigate thoroughly (7-10 days)\n4. Mediate if needed (5 days)\n5. Issue resolution (3-5 days)\n6. Follow-up (if needed)\n\n📞 COMPLAINT CELL:\n• Email: complaints@superior.edu.pk\n• Hotline: +92-42-111-738-738 ext. 5200\n• Director: Dr. Sana Ahmed (sana.ahmed@superior.edu.pk)\n• Office: Building A, 1st Floor\n• Hours: 9 AM - 4:30 PM (Monday-Friday)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "anti_ragging",
+      "patterns": [
+        "What is anti-ragging policy?",
+        "Is there ragging in campus?",
+        "Report ragging?",
+        "Anti-ragging committee?",
+        "Zero ragging environment?",
+        "What is considered ragging?",
+        "How to report harassment?"
+      ],
+      "responses": [
+        "Superior University Anti-Ragging Policy:\n\n🛡️ ZERO TOLERANCE POLICY:\nSuperior University maintains a STRICT zero-tolerance policy against ALL forms of ragging, bullying, and harassment. Violations result in IMMEDIATE disciplinary action up to expulsion.\n\n⚠️ WHAT IS RAGGING?\nRagging includes:\n✗ Physical abuse (hitting, forcing physical tasks)\n✗ Verbal abuse (insulting, intimidating language)\n✗ Humiliation (public embarrassment, forced acts)\n✗ Psychological harassment (threats, intimidation)\n✗ Sexual harassment (unwanted advances, comments)\n✗ Financial exploitation (forcing money, theft)\n✗ Any act causing distress or discomfort\n\n✅ SAFE CAMPUS FEATURES:\n• CCTV in common areas\n• 24/7 security patrols\n• Emergency hotline available\n• Trained anti-ragging squad\n• Confidential complaint system\n• Quick response team\n• Regular awareness programs\n• Mentor-buddy system for freshers\n\n📋 REPORTING RAGGING:\n\nMETHOD 1: EMERGENCY HOTLINE\n• Number: +92-42-111-738-738 ext. 5300\n• Available: 24/7\n• Anonymous: Yes\n• Immediate response\n\nMETHOD 2: ONLINE PORTAL\n• URL: antiragging.superior.edu.pk\n• Report anonymously\n• Upload evidence\n• Track case status\n• Confidentiality guaranteed\n\nMETHOD 3: TELL AN AUTHORITY\n• Campus security\n• Department coordinator\n• Hostel warden\n• Any faculty member\n• Student council\n\nMETHOD 4: EMAIL\n• Email: antiragging@superior.edu.pk\n• Include: Details, witnesses, evidence\n• Mark \"URGENT\" if immediate threat\n\n🚨 IMMEDIATE ACTIONS:\n1. Report immediately (don't wait)\n2. Save all evidence (messages, photos, videos)\n3. Tell a trusted adult\n4. Contact authority within 24 hours\n5. Keep reporting communication\n\n⚖️ CONSEQUENCES FOR OFFENDERS:\n• First offense: Disciplinary committee hearing + warning\n• Second offense: Suspension (1 semester minimum)\n• Severe cases: IMMEDIATE EXPULSION\n• Police case filing (if criminal offense)\n• Permanent record: Affects future placements\n\n🤝 SUPPORT SYSTEM:\n✅ Counseling available (free & confidential)\n✅ Medical support if injured\n✅ Legal assistance if needed\n✅ Peer support groups\n✅ Mentorship programs\n✅ Safe spaces available\n✅ 24/7 help desk\n\n👥 ANTI-RAGGING COMMITTEE:\n• Coordinator: Dr. Fatima Khan (fatima.khan@superior.edu.pk)\n• Student Representative: Elected from student council\n• Faculty Members: 3\n• Security Head: Present at all hearings\n• Hostel Wardens: Active members\n\n📢 PREVENTION INITIATIVES:\n• Orientation programs emphasizing zero-ragging\n• Mentor-buddy system (senior-junior pairing)\n• Awareness posters in dormitories\n• Regular workshops on respect & dignity\n• Alumni testimonies (positive campus culture)\n• Parents briefing during admission\n\n💡 FOR FRESHERS:\n✅ Safe orientation period\n✅ Designated safe areas\n✅ Emergency contact cards\n✅ Buddy system assignment\n✅ Regular check-ins first month\n✅ Easy reporting mechanism\n\n📞 EMERGENCY CONTACTS:\n• Anti-Ragging Hotline: +92-42-111-738-738 ext. 5300\n• Campus Security: +92-42-111-738-738 ext. 5400\n• Hostel Warden: Hostel office direct line\n• Counselor: +92-42-111-738-738 ext. 5500\n\n✨ Promise: We are committed to ensuring EVERY student feels SAFE and RESPECTED on campus. Report any concern immediately!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "lost_found",
+      "patterns": [
+        "Lost something on campus?",
+        "Lost and found office?",
+        "How to report lost item?",
+        "Found something?",
+        "Where is lost and found?",
+        "Claim lost item?"
+      ],
+      "responses": [
+        "Superior University Lost & Found Services:\n\n📍 LOST & FOUND OFFICE:\n• Location: Main Security Gate (Building A entrance)\n• Hours: 9 AM - 5 PM (Daily)\n• Contact: +92-42-111-738-738 ext. 5600\n• Email: lostandfound@superior.edu.pk\n\n🔍 ITEMS COMMONLY FOUND:\n✅ Student IDs and documents\n✅ Mobile phones\n✅ Wallets and money\n✅ Keys and access cards\n✅ Bags and backpacks\n✅ Glasses and watches\n✅ Laptops and chargers\n✅ Books and notepads\n✅ Clothes and shoes\n\n📝 IF YOU LOST SOMETHING:\n\n1. IMMEDIATELY REPORT:\n   • Go to Lost & Found Office\n   • Or call: +92-42-111-738-738 ext. 5600\n   • Or email: lostandfound@superior.edu.pk\n   • Include: Description, location, date lost\n   • Provide: Contact information\n\n2. PROVIDE DETAILS:\n   • Item description (color, size, brand)\n   • Distinctive marks (scratches, initials)\n   • Where lost (building, time)\n   • Value (for insurance purposes)\n   • Photo of item (if available)\n\n3. CLAIM YOUR ITEM:\n   • Item located: Contacted immediately\n   • Verification: Describe item accurately\n   • Identification: Show student ID\n   • Sign: Release form\n   • Timeline: Claims must be within 90 days\n\n⚠️ UNCLAIMED ITEMS:\n• Storage: 90 days maximum\n• After 90 days: Donated to charity\n• Exception: IDs/documents kept indefinitely\n• Photos: Available on website after 30 days\n\n🎒 IF YOU FOUND SOMETHING:\n\n1. TURN IT IN:\n   • Take to Lost & Found Office\n   • Or inform any security personnel\n   • Report immediately (same day)\n\n2. DOCUMENT:\n   • Write location found\n   • Note time and date\n   • Describe item condition\n   • Note your name & contact\n\n3. REWARD:\n   • Many items have identification\n   • Owner may offer reward\n   • Accept voluntarily (not required)\n   • Thank you certificate from office\n\n📱 TRACKING ONLINE:\n• Portal: lostandfound.superior.edu.pk\n• Search by item type\n• View photos\n• Get location information\n• Report found items\n\n💰 HIGH-VALUE ITEMS:\n• Laptop/Phone: Kept in secure locker\n• Wallet with cash: Amount recorded\n• Documents: Stored confidentially\n• Jewelry: Photographed and documented\n\n⏱️ RESPONSE TIME:\n• Search: Started immediately upon report\n• Notification: 24-48 hours if found\n• Email: Sent with photo and location\n• Holding: Up to 90 days\n\n📞 LOST & FOUND CONTACT:\n• Email: lostandfound@superior.edu.pk\n• Phone: +92-42-111-738-738 ext. 5600\n• Location: Main Security Gate, Building A\n• Hours: 9 AM - 5 PM (Daily)\n• Emergency (after hours): Campus Security (+92-42-111-738-738 ext. 5400)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "medical_facility",
+      "patterns": [
+        "Medical facility on campus?",
+        "Health services?",
+        "Is there a clinic?",
+        "Hospital?",
+        "Emergency medical?",
+        "Health insurance?",
+        "Doctor availability?",
+        "Medical emergency?"
+      ],
+      "responses": [
+        "Superior University Medical Facilities:\n\n🏥 ON-CAMPUS CLINIC:\n• Name: Superior Health Center\n• Location: Building D (Near hostel)\n• Hours: 8 AM - 6 PM (Weekdays), 9 AM - 2 PM (Weekends)\n• Emergency: 24/7 available\n• Contact: +92-42-111-738-738 ext. 5700\n\n👨‍⚕️ MEDICAL STAFF:\n• Chief Medical Officer: Dr. Adnan Malik (MBBS, FCPS)\n• General Practitioners: 2 full-time doctors\n• Nurses: 4 trained nurses\n• Paramedics: 2 certified paramedics\n• Counselor: 1 mental health professional\n\n💊 SERVICES PROVIDED:\n\n1. GENERAL MEDICAL CARE:\n   ✅ Health checkups\n   ✅ Common illnesses (fever, cough, cold)\n   ✅ Minor injuries (cuts, sprains)\n   ✅ First aid treatment\n   ✅ Prescription writing\n   ✅ Vaccination & immunization\n\n2. SPECIALIZED SERVICES:\n   ✅ Eye checkup\n   ✅ Dental consultation\n   ✅ Physiotherapy\n   ✅ Mental health counseling\n   ✅ Nutrition guidance\n   ✅ Sports medicine\n\n3. HEALTH SCREENING:\n   ✅ Annual health checkup\n   ✅ Blood pressure monitoring\n   ✅ Blood tests\n   ✅ Cholesterol check\n   ✅ BMI assessment\n\n4. EMERGENCY SERVICES:\n   ✅ Ambulance available 24/7\n   ✅ Emergency stabilization\n   ✅ Referral to major hospitals\n   ✅ Injury management\n   ✅ Acute illness treatment\n\n🏥 AFFILIATED HOSPITALS (For serious cases):\n• Shaukat Khanum Memorial Cancer Hospital (5 km)\n• Aga Khan University Hospital (3 km)\n• Services Hospital (Lahore) (4 km)\n• Direct referral system available\n\n💳 HEALTH INSURANCE:\n• Mandatory: Student Health Insurance included in fees\n• Coverage: OPD + IPD (up to 5 lacs)\n• Hospitalization: Fully covered\n• Pre-existing: Excluded first year\n• Renewal: Automatic each semester\n\n💰 COST:\n• Clinic visit: Free for registered students\n• Medicines: Discounted at campus pharmacy\n• Blood tests: Subsidized rates\n• Specialized treatment: Insurance covers\n\n📱 HOW TO VISIT CLINIC:\n1. Go to Health Center (Building D)\n2. Register at reception\n3. Fill brief medical form\n4. Wait for doctor\n5. Receive treatment/prescription\n6. Follow-up if needed\n\n🚨 MEDICAL EMERGENCY:\n• Call: +92-42-111-738-738 ext. 5700 (Immediate)\n• Or call Campus Security: ext. 5400\n• Ambulance: Will arrive within 5 minutes\n• Always inform hostel warden (if resident)\n\n📋 HEALTH INSURANCE DETAILS:\n• Insurer: Pakistan Reinsurance Company\n• Card: Issued during orientation\n• Card number: Required at hospitals\n• Cashless treatment: Most affiliated hospitals\n\n👥 MENTAL HEALTH SUPPORT:\n• Counselor: Dr. Sana Fatima (PhD Psychology)\n• Sessions: Free & confidential\n• Issues: Stress, anxiety, depression, adjustment\n• Booking: Through health portal\n• Crisis hotline: ext. 5700 (anytime)\n\n📞 HEALTH CENTER CONTACT:\n• Main: +92-42-111-738-738 ext. 5700\n• Emergency: +92-42-111-738-738 ext. 5700 (24/7)\n• Email: health@superior.edu.pk\n• Chief Medical Officer: Dr. Adnan Malik (adnan.malik@superior.edu.pk)\n\n💉 VACCINATION PROGRAM:\n• Annual flu vaccine (Free)\n• COVID-19 boosters (Free)\n• Blood donation camps (Bi-annual)\n• Health awareness programs (Monthly)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "emergency_contacts",
+      "patterns": [
+        "Emergency contacts?",
+        "Important phone numbers?",
+        "Who to call in emergency?",
+        "Emergency numbers?",
+        "Security contact?",
+        "Help in crisis?"
+      ],
+      "responses": [
+        "Superior University Emergency Contacts:\n\n🚨 CRITICAL EMERGENCIES:\n📞 Police: 15\n🚑 Ambulance: 1122\n🔥 Fire: 16\n☎️ Campus Security Emergency: +92-42-111-738-738 ext. 5400\n\n🏥 MEDICAL EMERGENCY:\n• Campus Health Center: +92-42-111-738-738 ext. 5700 (24/7)\n• Emergency Ambulance: Available on campus\n• Nearest Hospital (Aga Khan): +92-42-3636-0000\n• Nearest Hospital (Shaukat Khanum): +92-42-3541-1111\n\n🔐 SECURITY & SAFETY:\n• Campus Security: +92-42-111-738-738 ext. 5400 (24/7)\n• Gate Security: +92-42-111-738-738 ext. 5410\n• Anti-Ragging Hotline: +92-42-111-738-738 ext. 5300 (24/7)\n• Complaint Cell: +92-42-111-738-738 ext. 5200\n\n🏢 ADMINISTRATION:\n• Main Switchboard: +92-42-111-738-738\n• Registrar Office: +92-42-111-738-738 ext. 5150\n• Dean's Office: +92-42-111-738-738 ext. 5160\n• Finance Office: +92-42-111-738-738 ext. 4100\n• Admissions: +92-42-111-738-738 ext. 4000\n\n👨‍🎓 STUDENT SERVICES:\n• Student Affairs: +92-42-111-738-738 ext. 4900\n• Career Development: +92-42-111-738-738 ext. 4300\n• Hostel Office: +92-42-111-738-738 ext. 4600\n• Library: +92-42-111-738-738 ext. 4200\n• IT Support: +92-42-111-738-738 ext. 4800\n\n👥 AFTER-HOURS CONTACTS:\n• Hostel Warden (Boys): Available 24/7 in hostel\n• Hostel Warden (Girls): Available 24/7 in hostel\n• Security Chief: +92-42-111-738-738 ext. 5420\n• Duty Officer: Always on campus\n\n💬 MENTAL HEALTH SUPPORT:\n• Campus Counselor: +92-42-111-738-738 ext. 5500\n• Mental Health Crisis: +92-42-111-738-738 ext. 5700\n• National Helpline: 1414 (TeleHealth)\n• Crisis Text: Text \"HELP\" to 123456\n\n📧 EMAIL CONTACTS:\n• General Inquiry: info@superior.edu.pk\n• Complaints: complaints@superior.edu.pk\n• Anti-Ragging: antiragging@superior.edu.pk\n• Medical: health@superior.edu.pk\n• Careers: careers@superior.edu.pk\n\n🗓️ OFFICE HOURS:\n• Normal: 9 AM - 5 PM (Monday-Friday)\n• Saturday: 10 AM - 3 PM (Limited services)\n• Sunday: Closed\n• Emergency: 24/7 always available\n\n⚠️ WHAT TO DO IN EMERGENCY:\n1. Assess situation (is it life-threatening?)\n2. Call appropriate emergency number immediately\n3. Inform campus security if on campus\n4. Follow instructions given by responders\n5. Stay calm and provide clear information\n6. Keep others safe\n7. Report to authorities\n8. Follow up after incident\n\n💾 SAVE THESE NUMBERS:\n• Write them down\n• Add to phone contacts\n• Share with family\n• Keep accessible at all times\n• Memorize critical ones (Security, Medical, Police)\n\n🌙 LATE NIGHT EMERGENCIES:\n• Security patrols campus 24/7\n• Hostel wardens available all night\n• Police can be called anytime\n• Ambulance responds immediately\n• Campus gates staffed round-the-clock\n\n📱 SAFETY APP:\n• Download: \"SuperiorSafe\" app\n• Features: One-touch emergency call\n• Location tracking with security\n• Share live location with contacts\n• Incident reporting\n• Campus map\n\n👪 INFORM YOUR FAMILY:\n• Campus phone: +92-42-111-738-738\n• Your student ID: [Student keeps]\n• Your hostel room (if applicable)\n• Emergency contact person on campus\n• Regular check-in schedule\n\n📞 ADDITIONAL USEFUL NUMBERS:\n• University Main: +92-42-111-738-738\n• Campus Taxi: +92-42-111-738-738 ext. 4750\n• IT Helpdesk: +92-42-111-738-738 ext. 4800 (8 AM - 8 PM)\n• Registrar (For documents): +92-42-111-738-738 ext. 5150"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wifi_information",
+      "patterns": [
+        "WiFi on campus?",
+        "Internet access?",
+        "WiFi password?",
+        "WiFi connection problems?",
+        "How to connect to WiFi?",
+        "WiFi speed?",
+        "Internet coverage?"
+      ],
+      "responses": [
+        "Superior University WiFi Information:\n\n📶 WIFI NETWORK:\n• Network Name: SuperiorUniWiFi\n• Coverage: 100% campus coverage\n• Speed: 100 Mbps (shared bandwidth)\n• Type: WPA2 Enterprise Security\n• Provider: Zong 4G network + Fiber optic backbone\n\n🔐 CONNECTION DETAILS:\n\nSTEP 1: INITIAL SETUP\n• Go to Settings > WiFi\n• Select \"SuperiorUniWiFi\"\n• Choose \"SuperiorUniWiFi_Auth\" for secure connection\n• Wait for portal to open\n\nSTEP 2: LOGIN\n• Username: Your Student ID (Roll No.)\n• Password: CNIC + Date (XXXXX1234-YYYY-MM-DD)\n  Example: 12345-1985-06-15\n• First login: System will ask to change password\n\nSTEP 3: AFTER LOGIN\n• Password changed: Now use your new credentials\n• Device recognized: Auto-connects on campus\n• Multi-device: Can connect 3 devices simultaneously\n• Always connected: WiFi available in all buildings\n\n📊 WIFI SPEEDS:\n• Download: 50-100 Mbps (typical)\n• Upload: 10-20 Mbps (typical)\n• Ping: <50ms (excellent for gaming)\n• Coverage: Indoor walls do not block signal\n\n🏢 COVERAGE AREAS:\n✅ All classrooms\n✅ Hostel buildings\n✅ Library\n✅ Cafeteria\n✅ Outdoor areas (90%)\n✅ Labs and workshops\n✅ Administrative buildings\n✅ Sports facilities\n✅ Parking areas\n\n⚙️ TROUBLESHOOTING:\n\nPROBLEM: Can't find network\n• SOLUTION: Make sure WiFi is enabled\n• Restart: Restart device\n• Forget: Forget network, connect again\n• Try: Move closer to router\n\nPROBLEM: Can't login\n• SOLUTION: Check Student ID spelling\n• Password: Verify CNIC + Date format\n• Reset: Use \"Forgot Password\" option\n• Clear: Clear browser cache/cookies\n\nPROBLEM: Slow internet\n• SOLUTION: Move closer to access point\n• Restart: Turn WiFi off/on\n• Check: Close unnecessary apps\n• Time: Try during off-peak hours (2-4 AM)\n\nPROBLEM: Connection drops\n• SOLUTION: Update WiFi drivers\n• Disconnect: Forget network, reconnect\n• Restart: Restart modem/router\n• Contact: Report to IT support\n\n📱 MOBILE HOTSPOT:\n• Option: Can use phone hotspot if needed\n• No mobile data? Ask IT for troubleshooting\n• Backup: WiFi is primary network\n\n🔒 SECURITY FEATURES:\n✅ WPA2 encryption (industry standard)\n✅ Individual login credentials\n✅ No shared passwords\n✅ Traffic monitoring for abuse detection\n✅ Automatic disconnection after 6 hours idle\n✅ Regular security updates\n\n📋 ACCEPTABLE USE POLICY:\n✓ Academic and productive use only\n✓ No illegal content (piracy, malware, etc.)\n✓ No harassment or bullying\n✓ No excessive bandwidth hogging\n✓ No video streaming during peak hours\n✓ Respect for other users\n\n❌ PROHIBITED:\n✗ Sharing login credentials\n✗ Accessing restricted sites\n✗ Downloading illegal content\n✗ Spreading malware\n✗ Harassment online\n✗ Denial of service attacks\n✗ Network intrusion attempts\n\n⚠️ CONSEQUENCES:\n• Violation: WiFi access suspended\n• Repeat: Disciplinary action\n• Severe: Expulsion (if criminal)\n\n💡 TIPS FOR BEST EXPERIENCE:\n• Change password regularly (every 3 months)\n• Logout when leaving campus\n• Use VPN for extra security (if needed)\n• Keep device updated\n• Use strong WiFi password\n• Report unusual activity to IT\n\n📞 IT SUPPORT:\n• Email: itsupport@superior.edu.pk\n• Phone: +92-42-111-738-738 ext. 4800\n• Help Desk: Building A, Ground Floor\n• Hours: 9 AM - 5 PM (Weekdays)\n• Emergency (after hours): Campus Security ext. 5400"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "labs_information",
+      "patterns": [
+        "Tell me about labs",
+        "What labs are available?",
+        "Lab facilities?",
+        "How to book lab?",
+        "Lab timing?",
+        "Computer lab?",
+        "Engineering lab?",
+        "Access to labs?"
+      ],
+      "responses": [
+        "Superior University Laboratory Facilities:\n\n🔬 AVAILABLE LABS:\n\n💻 COMPUTER SCIENCE LABS:\n1. Programming Lab (Building C, 1st Floor)\n   • 50 workstations (Intel i7 processors)\n   • Software: C++, Python, Java, R, MATLAB\n   • Availability: 8 AM - 6 PM (Weekdays), 10 AM - 4 PM (Weekends)\n   • Supervisor: Lab technician present always\n\n2. AI/ML Lab (Building C, 2nd Floor)\n   • NVIDIA GPUs (4x RTX 3090)\n   • TensorFlow, PyTorch, Keras\n   • Jupyter notebooks setup\n   • Booking: Through portal (2-hour slots)\n\n3. Cybersecurity Lab (Building C, 3rd Floor)\n   • Firewall & intrusion detection systems\n   • Ethical hacking tools\n   • Network simulation environment\n   • Hands-on penetration testing\n\n4. Data Science Lab (Building C, 2nd Floor)\n   • High-performance servers\n   • SQL & NoSQL databases\n   • Data visualization tools\n   • Real datasets for projects\n\n⚙️ ENGINEERING LABS:\n1. Electronics & Circuits (Building B, Ground)\n   • Oscilloscopes, multimeters\n   • Breadboards and components\n   • PCB design workstations\n\n2. Embedded Systems (Building B, 1st Floor)\n   • Microcontroller kits\n   • Arduino & Raspberry Pi\n   • Signal processing equipment\n\n3. Mechanical Workshop (Building B, 2nd Floor)\n   • CNC machines, lathes\n   • 3D printers\n   • Hand tools & welding equipment\n\n4. Network & Telecom Lab (Building C, 3rd Floor)\n   • Routers, switches, cables\n   • Network simulation software\n   • Fiber optics equipment\n\n⏰ LAB HOURS:\n• Regular: 8 AM - 6 PM (Weekdays)\n• Weekend: 10 AM - 4 PM (Saturday)\n• Evening slots: 6 PM - 8 PM (Limited)\n• Closed: Sunday & Public holidays\n• Exam period: Extended hours (8 AM - 10 PM)\n\n📱 HOW TO BOOK LAB:\n1. Online Portal: labs.superior.edu.pk\n2. Steps:\n   • Login with Student ID\n   • Select lab and date\n   • Choose 2-hour time slot\n   • Add course/project details\n   • Confirm booking\n3. Confirmation: Email confirmation sent\n4. Access: Card swipe gives access\n\n🛠️ EQUIPMENT AVAILABLE:\n✅ Computers/Laptops: 300+ workstations\n✅ Servers: 20+ for projects\n✅ Testing equipment: Full range\n✅ Software licenses: All major tools\n✅ Measurement instruments: Professional grade\n✅ 3D printers: 5 units available\n✅ Oscilloscopes: 50+ units\n\n📋 ACCESS REQUIREMENTS:\n• Current student (valid ID card)\n• Enrolled in relevant course\n• Safety training completed (for mechanical labs)\n• Lab coat (for engineering labs)\n• Closed shoes required\n\n👨‍🔬 LAB SUPERVISORS:\n• Always present during lab hours\n• Help with equipment troubleshooting\n• Training on new equipment\n• Safety supervision\n• Report maintenance issues\n\n📊 LAB POLICIES:\n✓ Report 5 minutes early\n✓ Follow safety procedures\n✓ Clean up after use\n✓ Report broken equipment\n✓ No eating/drinking\n✓ Proper attire required\n✓ Respect quiet hours\n✓ No unauthorized guests\n\n⚠️ SAFETY:\n• Safety briefing: Mandatory first visit\n• Emergency procedures: Clearly marked\n• Fire extinguishers: In all labs\n• First aid kits: Available\n• Safety goggles: Required (provided)\n• Incident reporting: Immediate to supervisor\n\n📞 LAB SUPPORT:\n• General: labs@superior.edu.pk\n• IT Labs: +92-42-111-738-738 ext. 2100\n• Engineering Labs: +92-42-111-738-738 ext. 2200\n• Booking issues: +92-42-111-738-738 ext. 4800\n• Emergency (labs): Campus Security ext. 5400"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "clubs_societies_detailed",
+      "patterns": [
+        "What clubs are there?",
+        "How to join a club?",
+        "Student societies?",
+        "Club benefits?",
+        "Club activities?",
+        "Coding club?",
+        "Sports club?",
+        "Cultural club?"
+      ],
+      "responses": [
+        "Superior University Clubs & Societies:\n\n🏆 TECHNICAL CLUBS:\n\n1. CODING CLUB\n   • Focus: Competitive programming, DSA\n   • Activities: Weekly contests, bootcamps, hackathons\n   • Head: Muhammad Hamza (m.hamza@superior.edu.pk)\n   • Meets: Thursday 4 PM (Lab B-301)\n   • Membership: Free\n\n2. AI/ML CLUB\n   • Focus: Artificial Intelligence, Machine Learning\n   • Activities: Project showcases, paper discussions, workshops\n   • Head: Dr. Sara Khan (s.khan@superior.edu.pk)\n   • Meets: Wednesday 5 PM (Lab C-202)\n   • Membership: Free\n\n3. ROBOTICS CLUB\n   • Focus: Robotics engineering, IoT\n   • Activities: Bot building, competitions, showcases\n   • Head: Hassan Ali (h.ali@superior.edu.pk)\n   • Meets: Monday 4 PM (Workshop)\n   • Membership: Free + Material cost\n\n4. CYBERSECURITY CLUB\n   • Focus: Ethical hacking, network security\n   • Activities: CTF competitions, security talks\n   • Head: Zainab Ahmed (z.ahmed@superior.edu.pk)\n   • Meets: Friday 3 PM (Lab C-301)\n   • Membership: Free\n\n🎓 ACADEMIC CLUBS:\n\n5. ENTREPRENEURSHIP CLUB\n   • Focus: Business ideas, startup culture\n   • Activities: Pitch competitions, guest speakers\n   • Head: Prof. Ali Khan\n   • Meets: Tuesday 4 PM (Building E)\n\n6. DEBATE SOCIETY\n   • Focus: Public speaking, debating skills\n   • Activities: Tournaments, workshops, mock debates\n   • Head: Fatima Malik\n   • Meets: Wednesday 4 PM (Auditorium)\n\n🎨 CULTURAL CLUBS:\n\n7. ARTS & DESIGN CLUB\n   • Focus: Graphic design, digital art\n   • Activities: Design competitions, exhibitions\n   • Head: Maria Khan\n   • Meets: Saturday 3 PM (Art Studio)\n\n8. CULTURAL FEST CLUB\n   • Focus: Campus events, cultural activities\n   • Activities: Organizing events, performances\n   • Head: Ahmed Raza\n   • Meets: Sunday 2 PM (Student Center)\n\n⚽ SPORTS CLUBS:\n\n9. FOOTBALL CLUB\n   • Activities: Matches, training, tournaments\n   • Head: Usama Khan\n   • Practice: Daily 4 PM (Football field)\n\n10. CRICKET CLUB\n    • Activities: Matches, coaching, tournaments\n    • Head: Ali Malik\n    • Practice: Daily 3 PM (Cricket ground)\n\n11. BADMINTON CLUB\n    • Activities: Matches, training, competitions\n    • Head: Nida Ahmed\n    • Practice: Weekdays 5 PM (Courts)\n\n📖 INTEREST-BASED CLUBS:\n\n12. BOOK CLUB\n    • Activities: Reading discussions, author talks\n    • Meets: Bi-weekly (Library)\n\n13. PHOTOGRAPHY CLUB\n    • Activities: Photo walks, exhibitions, contests\n    • Meets: Weekends\n\n14. VOLUNTEER CLUB\n    • Activities: Community service, outreach\n    • Meets: Monthly\n\n✅ HOW TO JOIN:\n1. Attend Club Fair (Start of each semester)\n2. Talk to club representatives\n3. Register your name\n4. Attend first meeting\n5. Payment (if any): One-time fee\n6. Enjoy club activities!\n\n📋 BENEFITS:\n✓ Skill development\n✓ Networking with peers\n✓ Resume building\n✓ Leadership opportunities\n✓ Campus recognition\n✓ Free events & workshops\n✓ Certificates of participation\n✓ Social connection\n✓ Fun & recreation\n\n🎯 CLUB MEMBERSHIP TYPES:\n• Active Member: Attend meetings, participate (Free-Rs. 500)\n• Associate Member: Casual participation (Free)\n• Office Bearer: Lead the club (Selection-based)\n\n📅 ANNUAL EVENTS:\n• Club Fair: September (Fall), February (Spring)\n• Annual Gala: December (Award ceremony)\n• Inter-club competition: May\n• Founder's day celebration: March\n\n🏅 RECOGNITION:\n• Active members: Certificates annually\n• Office bearers: Letter of recommendation\n• Event participation: Extra-curricular credits\n• Outstanding contribution: Awards & prizes\n\n💰 FUNDING:\n• Club budget: Allocated annually\n• Event funding: Available for major events\n• Sponsorship: Can seek external sponsors\n• Fundraising: Allowed with permission\n\n📞 STUDENT AFFAIRS:\n• Clubs Coordinator: +92-42-111-738-738 ext. 4900\n• Email: studentclubs@superior.edu.pk\n• Office: Building A, 2nd Floor\n• For club establishment: Submit proposal\n\n📱 JOIN OUR COMMUNITY:\n• Club Directory: portal.superior.edu.pk/clubs\n• WhatsApp Groups: Links shared at club fair\n• Instagram: @SuperiorClubsOfficial\n• Facebook: Superior University Clubs Network"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sports_detailed",
+      "patterns": [
+        "Tell me about sports",
+        "Sports facilities?",
+        "Can I join sports team?",
+        "Sports scholarships?",
+        "Sports events?",
+        "Physical education?",
+        "Athletics?",
+        "Sports coaching?"
+      ],
+      "responses": [
+        "Superior University Sports & Athletics:\n\n🏅 SPORTS FACILITIES:\n\n⚽ FOOTBALL:\n• Field: International standard (100x70m)\n• Pitch: Artificial grass (FIFA approved)\n• Capacity: 5,000 spectators\n• Lighting: Floodlights for evening matches\n• Practice: Daily 4-6 PM\n\n🏏 CRICKET:\n• Ground: Full-size cricket field\n• Pitch: Hybrid grass-artificial\n• Practice nets: 10 practice pitches\n• Capacity: 2,000 spectators\n• Equipment: Professional quality\n\n🏸 BADMINTON:\n• Courts: 6 professional courts\n• Indoor: Air-conditioned hall\n• Lighting: Professional floodlights\n• Surface: Wooden court (international)\n\n🏀 BASKETBALL:\n• Courts: 2 full-size courts\n• Indoor: Climate-controlled\n• Surface: Rubberized flooring\n• Hoops: Professional grade\n\n🏊 SWIMMING:\n• Pool: Olympic-size (50m x 25m)\n• Depth: 1.2-2m (diving section)\n• Lanes: 10 competition lanes\n• Facilities: Changing rooms, equipment\n• Coach: Olympic-trained instructor\n\n🏋️ GYMNASIUM:\n• Equipment: Modern weight training machines\n• Free weights: Complete dumbbell range\n• Cardio: 20 treadmills, ellipticals, bikes\n• Area: 5,000 sq ft\n• Staff: Certified trainers\n• Hours: 6 AM - 9 PM\n\n🤸 MULTI-PURPOSE HALL:\n• Events: Volleyball, table tennis, handball\n• Capacity: Seats 500\n• Equipment: Regulation nets and balls\n• Lighting: Professional quality\n\n👨‍🏫 COACHING STAFF:\n• Head Coach (Football): International level\n• Head Coach (Cricket): Former national player\n• Strength Coach: S&C certification\n• Sports Physician: Available on-site\n• Physiotherapist: Injury management\n\n🏆 TEAMS & COMPETITIONS:\n\n1. UNIVERSITY TEAMS:\n   • Football (Men's & Women's)\n   • Cricket (Men's & Women's)\n   • Badminton (Mixed)\n   • Basketball (Mixed)\n   • Volleyball (Women's)\n   • Athletics (Track & field)\n   • Swimming (Mixed)\n\n2. INTER-UNIVERSITY COMPETITIONS:\n   • FISU World University Championships\n   • National University Games\n   • Kashmir Sports Festival\n   • Regional tournaments\n\n3. INTRA-MURAL COMPETITIONS:\n   • Department vs Department\n   • Hostel vs Hostel\n   • Class competitions\n   • Monthly tournaments\n\n📝 HOW TO JOIN SPORTS TEAM:\n\n1. TRYOUTS:\n   • Held: August (Fall) & January (Spring)\n   • Venue: Sports complex\n   • Registration: Free\n   • Selection: Skill-based\n\n2. SELECTION CRITERIA:\n   • Previous experience (not mandatory)\n   • Physical fitness test\n   • Technical skill assessment\n   • Team fit\n   • Attitude & commitment\n\n3. BENEFITS OF JOINING:\n   ✅ Professional coaching\n   ✅ Free equipment & uniforms\n   ✅ Match exposure\n   ✅ Scholarships (up to 60% for talented players)\n   ✅ Campus recognition\n   ✅ Leadership opportunities\n   ✅ Networking\n   ✅ Travel opportunities\n\n🎓 SPORTS SCHOLARSHIPS:\n• Merit-based: Top performers (25-60% tuition waiver)\n• Full ride: World-class athletes (100% coverage)\n• Sponsorship: Equipment & travel covered\n• Bonus: Cash incentives for medal winners\n\n💪 PHYSICAL EDUCATION:\n• Compulsory: First 2 semesters (2 credits)\n• Curriculum: General fitness, sports skills, health\n• Assessment: Practical + Written exam\n• Exemption: Professional sports team members\n\n🏅 ACHIEVEMENTS:\n• National football champions: 2022, 2023\n• Cricket runners-up: 2024\n• Badminton: 15+ national titles\n• Swimming: 8+ national records\n• Athletics: Multiple provincial champions\n\n🎖️ AWARDS & RECOGNITION:\n• Player of the Year: Announced annually\n• Outstanding Athlete: Scholarship boost\n• Sports Spirit Award: Team unity recognition\n• Participation Medals: All participants\n\n⏰ SPORTS SCHEDULE:\n• Fall Season: Sept - Nov (Football, Cricket)\n• Spring Season: Feb - April (Cricket, Badminton)\n• Summer: May - July (Training camps)\n• Year-round: Gym, swimming, indoor sports\n\n🌟 FAMOUS ALUMNI:\n• Several national team players\n• International cricket players\n• Professional football players\n• National record holders (Swimming, Athletics)\n\n📞 SPORTS DEPARTMENT:\n• Director: Prof. Muhammad Ijaz (m.ijaz@superior.edu.pk)\n• Phone: +92-42-111-738-738 ext. 5600\n• Email: sports@superior.edu.pk\n• Office: Sports Complex, Ground Floor\n• Hours: 9 AM - 5 PM (Weekdays)\n\n💡 JOIN NOW:\n• Tryouts announced on portal\n• Follow: @SuperiorUniSports (Instagram, Twitter)\n• Facebook: Superior University Sports Club"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "events_detailed",
+      "patterns": [
+        "Tell me about university events",
+        "Upcoming events?",
+        "Annual events?",
+        "How to register for events?",
+        "Seminar and workshop?",
+        "Guest speakers?",
+        "Tech fest?",
+        "Convocation?"
+      ],
+      "responses": [
+        "Superior University Events & Activities:\n\n📅 MAJOR ANNUAL EVENTS:\n\n🎓 CONVOCATION:\n• When: June (Winter), December (Summer)\n• Ceremony: Degree distribution\n• Chief Guest: Government officials, industry leaders\n• Attendees: Graduates, families, faculty\n• Registration: Automatic for graduates\n• Dress Code: Formal (gown provided)\n• Duration: 4-5 hours\n• Venue: Main auditorium\n\n🚀 TECH FEST:\n• When: March (Annual, 3-day event)\n• Activities:\n  ✅ Hackathon (24-hour coding challenge)\n  ✅ Project exhibitions\n  ✅ Tech talks by industry experts\n  ✅ Startup pitching competition\n  ✅ Gaming tournament\n  ✅ Robotics demonstration\n• Prizes: Cash prizes, internship offers\n• Registration: Free for students, Rs. 1000 for external\n• Expected Attendance: 3,000+ visitors\n\n🎉 CULTURAL FEST:\n• When: May (Annual, 2-day event)\n• Activities:\n  ✅ Music performances\n  ✅ Dance shows\n  ✅ Drama & theater\n  ✅ Fashion show\n  ✅ Food festival\n  ✅ Art exhibitions\n• Free Entry: For all students\n• Venue: Central campus\n• Stalls: 50+ food & craft vendors\n\n🏆 ANNUAL AWARDS CEREMONY:\n• When: December\n• Categories: Academic excellence, sports, clubs, service\n• Attendees: Top achievers, families, faculty\n• Prizes: Certificates, cash awards, scholarships\n\n📚 SEMINAR SERIES:\n\n1. INDUSTRY TALKS:\n   • Frequency: Monthly (2nd Friday)\n   • Speakers: CEOs, senior engineers, entrepreneurs\n   • Topics: Latest industry trends, career guidance\n   • Duration: 1 hour + Q&A\n   • Venue: Main auditorium\n   • Registration: Free, advance booking recommended\n\n2. RESEARCH SEMINARS:\n   • Frequency: Bi-weekly\n   • Speakers: PhD researchers, faculty, guest professors\n   • Topics: Research updates, methodology, findings\n   • Duration: 1.5 hours\n   • Venue: Department seminar halls\n\n3. CAREER WORKSHOPS:\n   • Frequency: Monthly\n   • Topics: Resume building, interview prep, LinkedIn\n   • Duration: 2 hours\n   • Facilitator: Career development team\n   • Attendance: Recommended for all students\n\n💼 CAREER FAIR:\n• When: April & October (Twice yearly)\n• Companies: 100+ recruiters\n• Activities:\n  ✅ Company presentations\n  ✅ Direct interviews\n  ✅ Internship offers\n  ✅ Networking\n• Dress Code: Formal business attire\n• CV Required: Bring hard copies\n• Duration: Full day (9 AM - 5 PM)\n\n⚽ SPORTS TOURNAMENTS:\n\nAnnual Sports Championships:\n• Held: September-October (Fall)\n• Events: Football, cricket, badminton, basketball, swimming\n• Duration: 2 weeks\n• Finals: Main event (spectator sports)\n• Prizes: Trophies, medals, cash prizes\n\nDepartment Sports Days:\n• Frequency: Each semester\n• Participation: Intra-department competition\n• Events: Athletics, relay races, team sports\n• Prize: Department trophy\n\n🎓 ORIENTATION PROGRAM:\n• When: August (Fall), January (Spring)\n• Duration: 3 days\n• Activities:\n  ✅ Campus tour\n  ✅ Faculty introductions\n  ✅ Academic guidance\n  ✅ Club fair\n  ✅ Social events\n  ✅ Placement overview\n• Attendance: Compulsory for new students\n\n📖 ALUMNI MEET:\n• When: Annual (March)\n• Duration: Full day\n• Activities:\n  ✅ Alumni success stories\n  ✅ Network with alumni\n  ✅ Career guidance\n  ✅ Mentorship opportunities\n• Open to: Current students & alumni\n\n🎪 FOUNDER'S DAY:\n• When: March 15\n• Duration: 1 day\n• Activities:\n  ✅ University history showcase\n  ✅ Special ceremonies\n  ✅ Awards presentation\n  ✅ Anniversary celebrations\n  ✅ Campus open house\n\n📝 HOW TO REGISTER FOR EVENTS:\n\n1. ONLINE PORTAL:\n   • URL: events.superior.edu.pk\n   • Steps:\n     a. Login with Student ID\n     b. Browse upcoming events\n     c. Click \"Register\"\n     d. Fill details\n     e. Confirm registration\n   • Confirmation: Email received immediately\n\n2. OFFLINE REGISTRATION:\n   • Location: Student Affairs Office\n   • Hours: 9 AM - 4 PM (Weekdays)\n   • Documents: Student ID\n   • Registration fee: If applicable\n\n3. CLUB REGISTRATION:\n   • Contact event organizing club directly\n   • WhatsApp groups for updates\n   • Direct sign-up at event venue\n\n💡 UPCOMING EVENTS (Next 3 Months):\n• July 5: Research Seminar (Faculty)\n• July 15: Industry Talk - \"AI in Finance\"\n• August 1: Orientation Program (New semester)\n• August 20: Club Fair\n• September 1: Sports Tryouts Begin\n• October 15: Career Fair (Spring)\n\n📞 EVENT COORDINATION:\n• Events Coordinator: +92-42-111-738-738 ext. 4900\n• Email: events@superior.edu.pk\n• Office: Building A, 2nd Floor\n• Hours: 9 AM - 5 PM (Weekdays)\n\n📱 STAY UPDATED:\n• Instagram: @SuperiorUniOfficial\n• Facebook: Superior University\n• Twitter: @SuperiorUni\n• Telegram: Join \"Superior Events\" channel\n• WhatsApp: Subscribe to university newsletter\n• Email: events@superior.edu.pk for updates"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "holidays_information",
+      "patterns": [
+        "What are holidays?",
+        "When is semester break?",
+        "Holiday list?",
+        "When is vacation?",
+        "Academic calendar?",
+        "How long is break?",
+        "Mid-semester holidays?"
+      ],
+      "responses": [
+        "Superior University Academic Calendar & Holidays:\n\n📅 ACADEMIC YEAR STRUCTURE:\n\nFALL SEMESTER:\n• Start Date: September 1\n• End Date: December 20\n• Duration: 4 months (16 weeks)\n• Exams: December (Final 2 weeks)\n• Break: December 21 - January 31\n\nSPRING SEMESTER:\n• Start Date: February 1\n• End Date: May 31\n• Duration: 4 months (16 weeks)\n• Exams: May (Final 2 weeks)\n• Break: June 1 - August 31\n\n🎉 PUBLIC HOLIDAYS (Non-working days):\n\nYEAR-ROUND HOLIDAYS:\n• Kashmir Day: February 5\n• Pakistan Day: March 23\n• Labour Day: May 1\n• Independence Day: August 14\n• Iqbal Day: November 9\n• Quaid-e-Azam Day: December 25\n\nRELIGIOUS HOLIDAYS:\n• Eid-ul-Fitr: 3 days (dates vary - Islamic calendar)\n• Eid-ul-Adha: 3 days (dates vary - Islamic calendar)\n• Eid Milad-un-Nabi (Prophet's Birthday): 1 day (November)\n• Ashura (9th & 10th Muharram): 2 days (varies)\n\n📚 SEMESTER BREAKS:\n\n1. MID-SEMESTER BREAK:\n   • Duration: 1 week (usually Week 8)\n   • Purpose: Relief from studies\n   • Classes: Suspended\n   • Exams: Resume after break\n\n2. WINTER BREAK:\n   • Duration: 6 weeks (December 21 - January 31)\n   • Dates: After fall semester exams\n   • Hostel: Available for out-of-station students\n   • Library: Limited access\n\n3. SUMMER BREAK:\n   • Duration: 3 months (June 1 - August 31)\n   • Dates: After spring semester exams\n   • Summer Programs: Available (optional)\n   • Internships: Most students do internships\n\n⏰ SEMESTER DATES (2024-2025):\n\nFALL 2024:\n• Registration: August 20-25\n• Classes Begin: September 1\n• Midterm Exams: October 28 - November 1\n• Final Exams: December 9-20\n• Semester Ends: December 20\n\nWINTER BREAK:\n• Duration: December 21 - January 31 (6 weeks)\n• Hostel Check-out: December 21\n• Library Access: Limited (10 AM - 4 PM)\n\nSPRING 2025:\n• Registration: January 25-30\n• Classes Begin: February 1\n• Midterm Exams: March 24-28\n• Final Exams: May 12-23\n• Semester Ends: May 31\n\nSUMMER BREAK:\n• Duration: June 1 - August 31 (3 months)\n• Internship Period: Major duration for internships\n• Summer Courses: Available for advanced students\n\n🎓 CONVOCATION DATES:\n• Winter Convocation: December 28\n• Summer Convocation: June 15\n• Rescheduled: If conflicts with holidays\n\n📋 COMPLETE HOLIDAY LIST (2024-2025):\n\nJANUARY 2025:\n• New Year: January 1 (Wednesday)\n\nFEBRUARY 2025:\n• Kashmir Day: February 5 (Wednesday)\n\nMARCH 2025:\n• Pakistan Day: March 23 (Sunday)\n\nAPRIL 2025:\n• Eid-ul-Fitr: April 1-3 (Approximately)\n\nMAY 2025:\n• Labour Day: May 1 (Thursday)\n\nJULY 2025:\n• Eid-ul-Adha: July 7-10 (Approximately)\n\nAUGUST 2025:\n• Independence Day: August 14 (Thursday)\n\nSEPTEMBER 2025:\n• Eid Milad-un-Nabi: September 16 (Approximately)\n\nNOVEMBER 2025:\n• Iqbal Day: November 9 (Sunday)\n\nDECEMBER 2025:\n• Ashura: December 9-10 (Approximately)\n• Quaid-e-Azam Day: December 25 (Thursday)\n\n⚙️ IMPORTANT NOTES:\n✓ Islamic holiday dates may change\n✓ Check official calendar 2 weeks before\n✓ Hostel remains open during most breaks\n✓ Some facilities closed on public holidays\n✓ Emergency services always available\n✓ Library limited access during breaks\n\n🔄 HOW TO GET UPDATED:\n• Official Portal: www.superior.edu.pk/academic-calendar\n• Email: registrar@superior.edu.pk\n• SMS: Automatic alerts 1 week before break\n• WhatsApp: University news channel\n• Department Board: Notices posted\n• Student Portal: Calendar section\n\n📝 TIPS:\n• Plan internships during summer\n• Travel during breaks\n• Complete projects before breaks\n• Register for next semester early\n• Update contact info before breaks\n• Inform hostel of stay/checkout dates\n\n📞 ACADEMIC OFFICE:\n• Email: academic@superior.edu.pk\n• Phone: +92-42-111-738-738 ext. 5150\n• Office: Building A, 2nd Floor\n• Hours: 9 AM - 4 PM (Weekdays)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "convocation",
+      "patterns": [
+        "What is convocation?",
+        "When is convocation?",
+        "How to attend convocation?",
+        "Convocation ceremony?",
+        "Graduation ceremony?",
+        "Degree awarding?"
+      ],
+      "responses": [
+        "Superior University Convocation Ceremony:\n\n🎓 WHAT IS CONVOCATION?\nConvocation is the formal graduation ceremony where students receive their degrees and are officially recognized as alumni of Superior University.\n\n📅 CONVOCATION DATES:\n• Winter Convocation: December 28, 2024\n• Summer Convocation: June 15, 2025\n• Fall Convocation: September 20, 2025\n\n⏰ CEREMONY DETAILS:\n• Time: 10:00 AM - 1:00 PM\n• Venue: Main Auditorium & Sports Ground\n• Duration: 3 hours\n• Capacity: 5,000+ attendees\n• Chief Guest: Government dignitaries/industry leaders\n\n📝 ELIGIBILITY:\n✓ Completed all academic requirements\n✓ Cleared all dues (fees, library, hostel)\n✓ No disciplinary action pending\n✓ Final grades approved by Dean\n✓ Thesis/project (if required) submitted\n\n📋 REGISTRATION PROCESS:\n1. Auto-registration: System registers eligible students\n2. Confirmation: Email received 1 week before ceremony\n3. Gown Fitting: Appointment scheduled (3 days before)\n4. Seat Assignment: Will be informed at venue\n5. Final Confirmation: Day before convocation\n\n🎽 DRESS CODE:\n• Academic Gown: Provided by university (free)\n• Cap & Hood: Provided\n• Formal Attire: Under gown (black pants, white shirt)\n• Shoes: Black formal shoes (closed)\n• Optional: Stole/Sash (faculty wear)\n\n👥 WHO CAN ATTEND:\n✓ Graduating students (mandatory to wear gown)\n✓ Family members (up to 3-4 guests per student)\n✓ Faculty members (will be in academic dress)\n✓ University staff\n✓ Media (designated area)\n✓ General public (limited seating)\n\n💰 CONVOCATION FEES:\n• Ceremony Attendance: Free\n• Gown & Cap: Free (if returned after ceremony)\n• Degree Certificate: Included\n• Photography: Rs. 500 (optional, professional photos)\n• Convocation Dinner: Rs. 1,500 (optional)\n\n📸 PHOTOGRAPHY & VIDEOGRAPHY:\n• Official Photographer: Will capture all events\n• Video: Ceremony livestreamed on YouTube\n• Personal Cameras: Allowed from designated areas\n• Social Media: Official hashtag #SuperiorConvo2024\n• Professional Package: Available for purchase\n\n🎯 CEREMONY SCHEDULE:\n• 9:30 AM: Guest arrival & seating\n• 10:00 AM: Procession begins\n• 10:15 AM: Rector's address\n• 10:45 AM: Chief Guest speech\n• 11:15 AM: Degree awarding ceremony begins\n• 12:30 PM: Final remarks & closing\n• 1:00 PM: Reception & lunch\n\n📢 IMPORTANT TIMINGS:\n• Report Early: 45 minutes before ceremony\n• Gate Opens: 8:00 AM\n• Gown Check-in: 9:00 AM\n• Final Seating: 9:45 AM\n• Ceremony Starts: 10:00 AM sharp\n• Gates Close: 9:55 AM (No latecomers)\n\n🎁 WHAT YOU RECEIVE:\n✓ Degree certificate (in special folder)\n✓ Diploma with university seal\n✓ Academic hood (placed by rector)\n✓ Congratulatory letter\n✓ Alumni membership\n✓ Professional photograph\n✓ Convocation souvenir\n\n👨‍👩‍👧‍👦 GUEST INFORMATION:\n• Invitations: Digital (sent to student email)\n• Parking: Free parking allocated\n• Seating: Assigned in guest section\n• No Extra Guests: Limit strictly enforced\n• Dress Code: Formal (No jeans/casuals)\n• Children: Allowed (bring activity packs)\n\n🍽️ RECEPTION & DINING:\n• Lunch: Provided after ceremony\n• Buffet: Vegetarian & non-vegetarian\n• Beverages: Tea, coffee, soft drinks\n• Networking: Great opportunity to connect\n• Duration: 1-2 hours\n\n📱 DIGITAL UPDATES:\n• Email: Reminders sent regularly\n• SMS: Final reminder day before\n• Portal: Updates on ceremony details\n• WhatsApp: Graduate group for announcements\n• Live Stream: YouTube channel\n\n❓ FAQ:\n\nQ: Can I wear my own clothes instead of gown?\nA: No, academic gown is mandatory for degree recipients.\n\nQ: What if I can't attend?\nA: Degree can be collected from Dean's office later.\n\nQ: Can I bring kids to ceremony?\nA: Yes, within the guest limit.\n\nQ: Will ceremony be recorded?\nA: Yes, official recording will be available.\n\nQ: How do I get invitation for family?\nA: Digital invitations sent to your email automatically.\n\nQ: Is there parking?\nA: Yes, free parking available (limited spaces).\n\nQ: What if convocation is postponed?\nA: Alternative date announced (usually within 1 month).\n\n📞 CONVOCATION OFFICE:\n• Coordinator: Dr. Fatima Khan\n• Email: convocation@superior.edu.pk\n• Phone: +92-42-111-738-738 ext. 5250\n• Office: Building A, 3rd Floor\n• Hours: 9 AM - 5 PM (1 month before ceremony)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "alumni_information",
+      "patterns": [
+        "Alumni services?",
+        "Alumni network?",
+        "Stay connected after graduation?",
+        "Alumni benefits?",
+        "Alumni events?",
+        "Alumni mentoring?"
+      ],
+      "responses": [
+        "Superior University Alumni Network:\n\n🌟 ALUMNI MEMBERSHIP:\n• Automatic: Upon graduation\n• Lifetime: Free lifetime membership\n• Card: Alumni ID provided\n• Access: Campus access throughout life\n• Network: 30,000+ alumni worldwide\n\n💼 ALUMNI BENEFITS:\n\n1. CAREER SUPPORT:\n   ✅ Job posting on alumni portal\n   ✅ Executive placement assistance\n   ✅ Networking events (quarterly)\n   ✅ Mentorship matching program\n   ✅ Executive education programs\n   ✅ Career guidance from alumni\n\n2. FINANCIAL BENEFITS:\n   ✅ Alumni scholarship fund (for your children)\n   ✅ Discounted CPD courses\n   ✅ Education loan assistance\n   ✅ Insurance discounts\n   ✅ Banking partnerships\n\n3. CAMPUS ACCESS:\n   ✅ Library privileges (24/7 access)\n   ✅ Gym membership (50% discount)\n   ✅ Cafeteria access\n   ✅ Auditorium for events\n   ✅ Hostel for visiting alumni\n\n4. SOCIAL EVENTS:\n   ✅ Annual Alumni Reunion (May)\n   ✅ Batch reunions (organized yearly)\n   ✅ Regional meetups (worldwide)\n   ✅ Networking brunches (monthly)\n   ✅ Golf tournaments\n   ✅ Sports tournaments\n\n5. ACADEMIC BENEFITS:\n   ✅ Free seminars & workshops\n   ✅ Access to university publications\n   ✅ Discounted MS/MBA fees\n   ✅ Guest speaker opportunities\n   ✅ Research collaboration\n   ✅ Certificate programs (subsidized)\n\n📱 ALUMNI PORTAL:\n• URL: alumni.superior.edu.pk\n• Features:\n  ✅ Alumni directory (searchable)\n  ✅ Job postings\n  ✅ Event registration\n  ✅ Mentorship network\n  ✅ News & updates\n  ✅ Photo gallery\n  ✅ Alumni publications\n\n🤝 MENTORSHIP PROGRAM:\n• Connect: With successful alumni in your field\n• Duration: 6-12 months (flexible)\n• Frequency: Monthly 1-hour sessions\n• Cost: Free\n• Benefits: Career guidance, networking, support\n\n📅 ANNUAL ALUMNI MEET:\n• When: May 15 (annually)\n• Duration: Full day event\n• Activities:\n  ✅ Success stories\n  ✅ Awards ceremony\n  ✅ Class reunions\n  ✅ Networking dinner\n  ✅ Campus tour\n  ✅ Sports activities\n• Venue: Main campus\n• Attendance: 500-1000 alumni expected\n\n🌍 INTERNATIONAL ALUMNI:\n• USA Chapter: New York, California, Texas\n• UK Chapter: London, Manchester\n• Middle East: UAE, Saudi Arabia, Qatar\n• Asia: Singapore, Malaysia, Hong Kong\n• Meetings: Quarterly in each region\n\n💡 ALUMNI GIVING:\n• Scholarship Fund: Support current students\n• Building Fund: Campus development\n• Research Fund: Faculty research\n• Emergency Fund: Student hardship cases\n• Named Scholarships: Create your legacy\n• Tax Benefits: Donations tax-deductible\n\n📰 ALUMNI PUBLICATIONS:\n• Magazine: \"Superior Voice\" (Quarterly)\n• Newsletter: \"Alumni Digest\" (Monthly)\n• Podcast: \"Alumni Stories\"\n• LinkedIn: Official alumni group (15,000+ members)\n• Social Media: Instagram, Facebook, Twitter\n\n🏆 ALUMNI ACHIEVEMENTS:\n• Notable CEOs: 50+ heading major companies\n• Entrepreneurs: 200+ startup founders\n• Academics: 100+ PhDs and university faculty\n• Government: 80+ in government positions\n• International: Working in 100+ countries\n\n📞 ALUMNI OFFICE:\n• Director: Mr. Hassan Khan (h.khan@superior.edu.pk)\n• Email: alumni@superior.edu.pk\n• Phone: +92-42-111-738-738 ext. 5350\n• Office: Building A, 3rd Floor\n• Hours: 9 AM - 5 PM (Weekdays)\n\n🎯 GET INVOLVED:\n✓ Mentor students\n✓ Speak at events\n✓ Organize batch reunion\n✓ Host networking events\n✓ Contribute to scholarship fund\n✓ Partner with university\n✓ Lead regional chapter\n\n📧 STAY CONNECTED:\n• Update profile: alumni.superior.edu.pk\n• Subscribe: To newsletter\n• Follow: Social media channels\n• Attend: Events & reunions\n• Give back: Support current students\n• Spread word: Recommend to friends"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks_and_support",
+      "patterns": [
+        "Thank you",
+        "Thanks for the help",
+        "Appreciate it",
+        "Thanks a lot",
+        "I'm satisfied",
+        "Good information",
+        "That was helpful"
+      ],
+      "responses": [
+        "You're very welcome! 😊 I'm glad I could help you with information about Superior University. Feel free to ask me anything else anytime!",
+        "Happy to help! 🌟 If you have any more questions about Superior University - whether it's admissions, campus life, or any other concerns - I'm always here for you!",
+        "Thank you for using UniAssist AI! 👋 I hope the information was helpful. Don't forget to explore our student portal for more details. Good luck with your university journey!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "not_understood",
+      "patterns": [
+        "I don't understand",
+        "Can you repeat?",
+        "What?",
+        "Please explain",
+        "Say that again",
+        "I didn't get it"
+      ],
+      "responses": [
+        "I apologize for the confusion! 😊 Could you please rephrase your question? I'm here to help with anything related to Superior University - admissions, academics, campus life, or student services!",
+        "Sorry, I didn't quite understand that! 🤔 Can you tell me more specifically what you'd like to know about Superior University? For example: admissions, courses, fees, facilities, or student life?",
+        "My apologies! Let me help you better. Could you provide more details about what information you're looking for? I'm equipped to assist with all Superior University-related queries!"
+      ],
+      "context_set": ""
+    }
+  ]
+}
